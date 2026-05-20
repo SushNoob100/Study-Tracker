@@ -1,0 +1,2792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEE MBBS Strategic Preparation Plan 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --surface2: #1a2236;
+    --accent: #f59e0b;
+    --accent2: #10b981;
+    --accent3: #ef4444;
+    --accent4: #6366f1;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --border: #1e293b;
+    --gold: #fbbf24;
+    --silver: #94a3b8;
+    --bronze: #d97706;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0a0e1a 0%, #0f172a 40%, #1e1b4b 100%);
+    padding: 60px 40px 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #1e293b;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(99,102,241,0.15) 0%, transparent 70%);
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(245,158,11,0.15);
+    border: 1px solid rgba(245,158,11,0.4);
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, #f1f5f9 30%, #fbbf24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero-sub {
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 620px;
+    margin: 0 auto 30px;
+  }
+  .stat-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .stat-box {
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 14px 24px;
+    min-width: 110px;
+  }
+  .stat-box .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .stat-box .lbl { font-size: 11px; color: var(--muted); margin-top: 2px; text-transform: uppercase; letter-spacing: 1px; }
+
+  /* LAYOUT */
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+
+  /* SECTION TITLE */
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: var(--text);
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  .section-meta { color: var(--muted); font-size: 13px; margin-bottom: 28px; margin-top: 6px; }
+
+  section { margin-bottom: 60px; }
+
+  /* WEIGHTAGE TABLE */
+  .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; }
+  thead tr { background: var(--surface2); }
+  thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  tbody tr { background: var(--surface); border-top: 1px solid var(--border); transition: background 0.15s; }
+  tbody tr:hover { background: var(--surface2); }
+  tbody td { padding: 11px 16px; font-size: 13.5px; }
+  .q-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .bar-cell { width: 160px; }
+  .bar-track { height: 6px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; }
+  .bar-z { background: linear-gradient(90deg, #10b981, #34d399); }
+  .bar-b { background: linear-gradient(90deg, #6366f1, #818cf8); }
+  .bar-c { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+  .bar-p { background: linear-gradient(90deg, #ef4444, #f87171); }
+
+  /* PRIORITY TAGS */
+  .tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .tag-a { background: rgba(239,68,68,0.15); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); }
+  .tag-b { background: rgba(245,158,11,0.15); color: #f59e0b; border: 1px solid rgba(245,158,11,0.3); }
+  .tag-c { background: rgba(99,102,241,0.15); color: #818cf8; border: 1px solid rgba(99,102,241,0.3); }
+  .tag-easy { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); }
+  .tag-hard { background: rgba(239,68,68,0.12); color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
+
+  /* PRIORITY GRID */
+  .priority-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .priority-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .priority-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+  .pc-a::before { background: linear-gradient(90deg, #ef4444, #f87171); }
+  .pc-b::before { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+  .pc-c::before { background: linear-gradient(90deg, #6366f1, #818cf8); }
+  .priority-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+  .priority-card ul { list-style: none; }
+  .priority-card ul li {
+    padding: 7px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text);
+  }
+  .priority-card ul li:last-child { border-bottom: none; }
+  .priority-card ul li::before {
+    content: '▸';
+    color: var(--accent);
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+  .chapter-q {
+    margin-left: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    background: rgba(255,255,255,0.05);
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+
+  /* MONTH PLAN */
+  .month-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+  .month-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .month-header {
+    padding: 16px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .m1 .month-header { background: linear-gradient(135deg, #1a1f35, #1e2a3a); border-bottom: 2px solid #10b981; }
+  .m2 .month-header { background: linear-gradient(135deg, #1a1f35, #231a1a); border-bottom: 2px solid #f59e0b; }
+  .m3 .month-header { background: linear-gradient(135deg, #1a1f35, #1a1535); border-bottom: 2px solid #ef4444; }
+  .month-body { padding: 16px 20px; }
+  .week-item {
+    margin-bottom: 14px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    padding: 12px 14px;
+    border-left: 3px solid transparent;
+  }
+  .wk-g { border-left-color: #10b981; }
+  .wk-y { border-left-color: #f59e0b; }
+  .wk-r { border-left-color: #ef4444; }
+  .week-item h4 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 6px; }
+  .week-item p { font-size: 13px; line-height: 1.5; }
+  .week-item ul { list-style: none; margin-top: 6px; }
+  .week-item ul li { font-size: 12.5px; padding: 2px 0; color: var(--text); }
+  .week-item ul li::before { content: '• '; color: var(--accent); }
+
+  /* DAILY ROUTINE */
+  .routine-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .routine-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .routine-time {
+    background: var(--surface2);
+    padding: 8px 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .routine-task { padding: 10px 14px; font-size: 13px; }
+  .routine-task strong { color: var(--accent2); }
+
+  /* TOP 20 */
+  .top20-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .top20-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+  .top20-item:hover { border-color: rgba(245,158,11,0.3); transform: translateY(-1px); }
+  .rank-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    min-width: 32px;
+  }
+  .rn-gold { color: var(--gold); }
+  .rn-silver { color: var(--silver); }
+  .rn-bronze { color: var(--bronze); }
+  .rn-norm { color: var(--muted); }
+  .top20-info h4 { font-size: 13px; font-weight: 600; margin-bottom: 3px; }
+  .top20-info p { font-size: 11px; color: var(--muted); }
+
+  /* CRASH PLAN */
+  .crash-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .crash-card {
+    background: var(--surface);
+    border: 1px solid rgba(239,68,68,0.2);
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+  }
+  .crash-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, #ef4444, #f59e0b);
+  }
+  .crash-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 12px; color: var(--accent3); }
+  .crash-card ul { list-style: none; }
+  .crash-card ul li { font-size: 13px; padding: 5px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+  .crash-card ul li::before { content: '⚡ '; }
+  .crash-card ul li:last-child { border-bottom: none; }
+
+  /* MISTAKES */
+  .mistake-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+  .mistake-item {
+    background: rgba(239,68,68,0.06);
+    border: 1px solid rgba(239,68,68,0.15);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 13px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .mistake-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .mistake-item strong { display: block; margin-bottom: 3px; color: #f87171; }
+
+  /* INFO BOX */
+  .info-box {
+    background: rgba(99,102,241,0.08);
+    border: 1px solid rgba(99,102,241,0.25);
+    border-radius: 10px;
+    padding: 16px 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #a5b4fc;
+  }
+  .info-box strong { color: #818cf8; }
+
+  /* CALLOUT */
+  .callout {
+    background: rgba(245,158,11,0.08);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 13px;
+    color: var(--text);
+  }
+  .callout strong { color: var(--accent); }
+
+  /* DIVIDER */
+  hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+
+  /* SUBJECT COLOR LABELS */
+  .sub-z { color: #10b981; font-weight: 600; }
+  .sub-b { color: #818cf8; font-weight: 600; }
+  .sub-c { color: #f59e0b; font-weight: 600; }
+  .sub-p { color: #ef4444; font-weight: 600; }
+  .sub-m { color: #64748b; font-weight: 600; }
+
+  /* CHECKLIST */
+  .checklist { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; margin-top: 14px; }
+  .check-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .check-item::before { content: '☐'; font-size: 15px; color: var(--accent); flex-shrink: 0; }
+
+  /* FOOTER */
+  .footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 30px 40px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 28px; }
+    .stat-row { gap: 12px; }
+    .container { padding: 28px 16px; }
+  }
+
+  /* ===== TOPIC TRACKER STYLES ===== */
+  .tracker-hero {
+    background: linear-gradient(135deg, #0d1117 0%, #0f1e30 50%, #0d1a0d 100%);
+    border-top: 1px solid #1e293b;
+    border-bottom: 1px solid #1e293b;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .tracker-hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(16,185,129,0.1) 0%, transparent 65%);
+  }
+  .tracker-hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    background: linear-gradient(135deg, #f1f5f9 20%, #10b981 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .tracker-hero p { color: var(--muted); font-size: 14px; position: relative; }
+
+  /* Overall progress bar */
+  .overall-progress {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 30px;
+    margin: 28px auto;
+    max-width: 700px;
+    position: relative;
+  }
+  .overall-progress h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .overall-progress h3 span {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+    color: var(--accent2);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .big-bar-track {
+    height: 14px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .big-bar-fill {
+    height: 100%;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #10b981, #34d399, #6ee7b7);
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+  .big-bar-fill::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+    animation: shimmer 2s infinite;
+  }
+  @keyframes shimmer { 0%{transform:translateX(-100%)} 100%{transform:translateX(100%)} }
+  .progress-sub-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Subject progress summary row */
+  .subject-progress-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    max-width: 900px;
+    margin: 0 auto 32px;
+  }
+  .subj-prog-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-align: center;
+  }
+  .subj-prog-card .subj-name {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .subj-prog-card .subj-pct {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .subj-mini-bar {
+    height: 5px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .subj-mini-fill { height: 100%; border-radius: 3px; transition: width 0.5s ease; }
+  .fill-z { background: linear-gradient(90deg,#10b981,#34d399); }
+  .fill-b { background: linear-gradient(90deg,#6366f1,#818cf8); }
+  .fill-c { background: linear-gradient(90deg,#f59e0b,#fbbf24); }
+  .fill-p { background: linear-gradient(90deg,#ef4444,#f87171); }
+  .fill-m { background: linear-gradient(90deg,#64748b,#94a3b8); }
+
+  /* Tracker controls */
+  .tracker-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .ctrl-btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.3px;
+  }
+  .ctrl-btn:hover { background: var(--surface2); border-color: var(--accent); color: var(--accent); }
+  .ctrl-btn.active { background: rgba(245,158,11,0.12); border-color: var(--accent); color: var(--accent); }
+  .ctrl-btn.danger:hover { border-color: var(--accent3); color: var(--accent3); background: rgba(239,68,68,0.08); }
+
+  /* Tracker subject blocks */
+  .tracker-container { max-width: 1100px; margin: 0 auto; padding: 0 24px 60px; }
+
+  .tracker-subject {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .tracker-subj-header {
+    padding: 16px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s;
+  }
+  .tracker-subj-header:hover { background: rgba(255,255,255,0.03); }
+  .tracker-subj-header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .subj-icon { font-size: 20px; }
+  .subj-title-area h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .subj-title-area p { font-size: 12px; color: var(--muted); }
+  .subj-header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .subj-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .subj-pct-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    min-width: 52px;
+    text-align: center;
+  }
+  .chevron {
+    color: var(--muted);
+    font-size: 12px;
+    transition: transform 0.25s;
+  }
+  .tracker-subject.collapsed .chevron { transform: rotate(-90deg); }
+
+  .subj-progress-bar {
+    height: 3px;
+    background: rgba(255,255,255,0.05);
+    overflow: hidden;
+  }
+  .subj-progress-fill { height: 100%; transition: width 0.4s ease; }
+
+  .tracker-body { padding: 0 22px 18px; }
+  .tracker-body.hidden { display: none; }
+
+  /* Chapter rows */
+  .chapter-group {
+    margin-bottom: 6px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .chapter-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 11px 14px;
+    background: var(--surface2);
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s;
+  }
+  .chapter-header:hover { background: rgba(255,255,255,0.05); }
+  .chapter-checkbox {
+    width: 18px; height: 18px;
+    border-radius: 4px;
+    border: 2px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.15s;
+    font-size: 11px;
+  }
+  .chapter-checkbox.checked {
+    background: var(--accent2);
+    border-color: var(--accent2);
+    color: #fff;
+  }
+  .chapter-checkbox.partial {
+    background: rgba(245,158,11,0.2);
+    border-color: var(--accent);
+  }
+  .chapter-info { flex: 1; }
+  .chapter-name {
+    font-size: 13.5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .chapter-qs {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    background: rgba(255,255,255,0.05);
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .chapter-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .chapter-expand-icon { color: var(--muted); font-size: 10px; transition: transform 0.2s; flex-shrink: 0; }
+  .chapter-group.open .chapter-expand-icon { transform: rotate(90deg); }
+  .chapter-done { text-decoration: line-through; color: var(--muted); opacity: 0.6; }
+
+  /* Subtopics */
+  .subtopics { background: var(--bg); padding: 6px 14px 10px 46px; display: none; }
+  .chapter-group.open .subtopics { display: block; }
+  .subtopic-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .subtopic-item:last-child { border-bottom: none; }
+  .subtopic-item:hover { opacity: 0.85; }
+  .sub-check {
+    width: 16px; height: 16px;
+    border-radius: 3px;
+    border: 2px solid rgba(255,255,255,0.15);
+    flex-shrink: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    transition: all 0.15s;
+  }
+  .sub-check.checked { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+  .sub-label { font-size: 12.5px; color: var(--text); line-height: 1.4; }
+  .sub-label.done { text-decoration: line-through; color: var(--muted); opacity: 0.5; }
+
+  /* Priority dot */
+  .dot-a { width:8px;height:8px;border-radius:50%;background:#ef4444;flex-shrink:0;margin-top:5px; }
+  .dot-b { width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;margin-top:5px; }
+  .dot-c { width:8px;height:8px;border-radius:50%;background:#6366f1;flex-shrink:0;margin-top:5px; }
+
+  /* Completion celebration */
+  .completion-banner {
+    display: none;
+    background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(99,102,241,0.15));
+    border: 1px solid rgba(16,185,129,0.4);
+    border-radius: 12px;
+    padding: 20px 24px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 15px;
+    color: #34d399;
+    font-weight: 600;
+  }
+
+  /* ===== TOPIC TRACKER STYLES ===== */
+  .tracker-hero {
+    background: linear-gradient(135deg, #0d1117 0%, #0f1e30 50%, #0d1a0d 100%);
+    border-top: 1px solid #1e293b;
+    padding: 50px 40px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .tracker-hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(16,185,129,0.1) 0%, transparent 65%);
+  }
+  .tracker-hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    background: linear-gradient(135deg, #f1f5f9 20%, #10b981 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 10px; position: relative;
+  }
+  .tracker-hero p { color: var(--muted); font-size: 14px; position: relative; }
+  .overall-progress {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 24px 30px; margin: 28px auto 0; max-width: 700px; position: relative;
+  }
+  .overall-progress h3 {
+    font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted);
+    margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .overall-progress h3 span {
+    font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--accent2);
+    text-transform: none; letter-spacing: 0;
+  }
+  .big-bar-track { height: 14px; background: rgba(255,255,255,0.06); border-radius: 7px; overflow: hidden; margin-bottom: 10px; }
+  .big-bar-fill {
+    height: 100%; border-radius: 7px;
+    background: linear-gradient(90deg,#10b981,#34d399,#6ee7b7);
+    transition: width 0.5s cubic-bezier(0.4,0,0.2,1);
+    position: relative; overflow: hidden;
+  }
+  .big-bar-fill::after {
+    content:''; position:absolute; inset:0;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent);
+    animation: shimmer 2s infinite;
+  }
+  @keyframes shimmer { 0%{transform:translateX(-100%)} 100%{transform:translateX(100%)} }
+  .progress-sub-stats { display:flex; justify-content:space-between; font-size:12px; color:var(--muted); font-family:'JetBrains Mono',monospace; }
+  .subject-progress-row {
+    display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 12px; max-width: 900px; margin: 24px auto 32px;
+  }
+  .subj-prog-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 16px; text-align:center; }
+  .subj-prog-card .subj-name { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--muted); margin-bottom:8px; font-weight:600; }
+  .subj-prog-card .subj-pct { font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:700; margin-bottom:8px; }
+  .subj-mini-bar { height:5px; background:rgba(255,255,255,0.06); border-radius:3px; overflow:hidden; }
+  .subj-mini-fill { height:100%; border-radius:3px; transition:width 0.5s ease; }
+  .fill-z { background:linear-gradient(90deg,#10b981,#34d399); }
+  .fill-b { background:linear-gradient(90deg,#6366f1,#818cf8); }
+  .fill-c { background:linear-gradient(90deg,#f59e0b,#fbbf24); }
+  .fill-p { background:linear-gradient(90deg,#ef4444,#f87171); }
+  .fill-m { background:linear-gradient(90deg,#64748b,#94a3b8); }
+  .tracker-controls { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-bottom:28px; padding:0 24px; }
+  .ctrl-btn {
+    padding:8px 18px; border-radius:20px; border:1px solid var(--border);
+    background:var(--surface); color:var(--text); font-size:12px; font-weight:600;
+    cursor:pointer; transition:all 0.2s; font-family:'DM Sans',sans-serif;
+  }
+  .ctrl-btn:hover { background:var(--surface2); border-color:var(--accent); color:var(--accent); }
+  .ctrl-btn.active { background:rgba(245,158,11,0.12); border-color:var(--accent); color:var(--accent); }
+  .ctrl-btn.danger:hover { border-color:var(--accent3); color:var(--accent3); background:rgba(239,68,68,0.08); }
+  .tracker-container { max-width:1100px; margin:0 auto; padding:0 24px 60px; }
+  .tracker-subject { background:var(--surface); border:1px solid var(--border); border-radius:16px; overflow:hidden; margin-bottom:24px; }
+  .tracker-subj-header {
+    padding:16px 22px; display:flex; align-items:center; justify-content:space-between;
+    cursor:pointer; user-select:none; transition:background 0.15s;
+  }
+  .tracker-subj-header:hover { background:rgba(255,255,255,0.03); }
+  .tracker-subj-header-left { display:flex; align-items:center; gap:14px; }
+  .subj-icon { font-size:20px; }
+  .subj-title-area h3 { font-size:15px; font-weight:700; margin-bottom:2px; }
+  .subj-title-area p { font-size:12px; color:var(--muted); }
+  .subj-header-right { display:flex; align-items:center; gap:16px; }
+  .subj-count { font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--muted); white-space:nowrap; }
+  .subj-pct-badge { font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; padding:4px 10px; border-radius:20px; min-width:52px; text-align:center; }
+  .chevron { color:var(--muted); font-size:12px; transition:transform 0.25s; }
+  .tracker-subject.collapsed .chevron { transform:rotate(-90deg); }
+  .subj-progress-bar { height:3px; background:rgba(255,255,255,0.05); overflow:hidden; }
+  .subj-progress-fill { height:100%; transition:width 0.4s ease; }
+  .tracker-body { padding:0 22px 18px; }
+  .tracker-body.hidden { display:none; }
+  .chapter-group { margin-bottom:6px; border-radius:10px; overflow:hidden; border:1px solid var(--border); }
+  .chapter-header {
+    display:flex; align-items:center; gap:14px; padding:11px 14px;
+    background:var(--surface2); cursor:pointer; user-select:none; transition:background 0.15s;
+  }
+  .chapter-header:hover { background:rgba(255,255,255,0.05); }
+  .chapter-checkbox {
+    width:18px; height:18px; border-radius:4px; border:2px solid rgba(255,255,255,0.2);
+    cursor:pointer; display:flex; align-items:center; justify-content:center;
+    flex-shrink:0; transition:all 0.15s; font-size:11px;
+  }
+  .chapter-checkbox.checked { background:var(--accent2); border-color:var(--accent2); color:#fff; }
+  .chapter-checkbox.partial { background:rgba(245,158,11,0.2); border-color:var(--accent); color:var(--accent); }
+  .chapter-info { flex:1; }
+  .chapter-name { font-size:13.5px; font-weight:600; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .chapter-qs { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted); background:rgba(255,255,255,0.05); padding:2px 7px; border-radius:4px; }
+  .chapter-meta { font-size:11px; color:var(--muted); margin-top:2px; }
+  .chapter-expand-icon { color:var(--muted); font-size:10px; transition:transform 0.2s; flex-shrink:0; }
+  .chapter-group.open .chapter-expand-icon { transform:rotate(90deg); }
+  .chapter-done { text-decoration:line-through; color:var(--muted); opacity:0.6; }
+  .subtopics { background:var(--bg); padding:6px 14px 10px 46px; display:none; }
+  .chapter-group.open .subtopics { display:block; }
+  .subtopic-item {
+    display:flex; align-items:flex-start; gap:10px; padding:7px 0;
+    border-bottom:1px solid rgba(255,255,255,0.04); cursor:pointer; transition:opacity 0.15s;
+  }
+  .subtopic-item:last-child { border-bottom:none; }
+  .subtopic-item:hover { opacity:0.85; }
+  .sub-check {
+    width:16px; height:16px; border-radius:3px; border:2px solid rgba(255,255,255,0.15);
+    flex-shrink:0; margin-top:2px; display:flex; align-items:center; justify-content:center;
+    font-size:10px; transition:all 0.15s;
+  }
+  .sub-check.checked { background:var(--accent2); border-color:var(--accent2); color:#fff; }
+  .sub-label { font-size:12.5px; color:var(--text); line-height:1.5; }
+  .sub-label.done { text-decoration:line-through; color:var(--muted); opacity:0.5; }
+  .dot-a { width:7px; height:7px; border-radius:50%; background:#ef4444; flex-shrink:0; margin-top:6px; }
+  .dot-b { width:7px; height:7px; border-radius:50%; background:#f59e0b; flex-shrink:0; margin-top:6px; }
+  .dot-c { width:7px; height:7px; border-radius:50%; background:#6366f1; flex-shrink:0; margin-top:6px; }
+  .completion-banner {
+    display:none; background:linear-gradient(135deg,rgba(16,185,129,0.15),rgba(99,102,241,0.15));
+    border:1px solid rgba(16,185,129,0.4); border-radius:12px; padding:20px 24px;
+    text-align:center; margin-bottom:24px; font-size:15px; color:#34d399; font-weight:600;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">Nepal Medical Education Commission · CEE 2026</div>
+  <h1>MBBS CEE<br>Master Preparation Roadmap</h1>
+  <p class="hero-sub">Strategic 3-Month Blueprint · Syllabus-Optimized · Competitive MBBS Rank Focus</p>
+  <div class="stat-row">
+    <div class="stat-box"><div class="num">200</div><div class="lbl">Total MCQs</div></div>
+    <div class="stat-box"><div class="num">90</div><div class="lbl">Study Days</div></div>
+    <div class="stat-box"><div class="num">-0.25</div><div class="lbl">Negative Mark</div></div>
+    <div class="stat-box"><div class="num">50th</div><div class="lbl">Percentile Pass</div></div>
+    <div class="stat-box"><div class="num">3 hrs</div><div class="lbl">Exam Duration</div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- SECTION 1: WEIGHTAGE ANALYSIS -->
+  <section>
+    <div class="section-title">📊 Exact Syllabus Weightage Analysis</div>
+    <p class="section-meta">Based directly on the MEC syllabus document (2020, revised April 2026). Every number is from the official weightage table.</p>
+
+    <div class="info-box">
+      <strong>MBBS/BDS/BSc Nursing Group I Exam</strong> — 200 MCQs · <strong>Physics & Chemistry carry 50 Qs each</strong> (highest weight). Biology (Zoology + Botany) = 80 Qs. MAT = 20 Qs. Negative marking: 0.25 per wrong answer. Difficulty: Recall 50% : Understanding 30% : Application 20%.
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Chapter / Unit</th>
+            <th>Questions</th>
+            <th>% of Total</th>
+            <th>Weight Bar</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ZOOLOGY -->
+          <tr><td colspan="6" style="background:#0d1f18;color:#10b981;font-weight:700;font-size:12px;padding:8px 16px;letter-spacing:1px;">ZOOLOGY — 40 Questions (20%)</td></tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Human Biology & Physiology</td>
+            <td class="q-num">15</td><td>7.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:100%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Study of Selected Animals</td>
+            <td class="q-num">6</td><td>3%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:40%"></div></div></td>
+            <td><span class="tag tag-a">A</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Microbial Diseases & Immunology</td>
+            <td class="q-num">4</td><td>2%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:27%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Animal Diversity & Classification</td>
+            <td class="q-num">4</td><td>2%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:27%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Animal Tissues & Histology</td>
+            <td class="q-num">4</td><td>2%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:27%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Evolutionary Biology</td>
+            <td class="q-num">3</td><td>1.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:20%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Biota, Environment & Conservation</td>
+            <td class="q-num">2</td><td>1%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:13%"></div></div></td>
+            <td><span class="tag tag-c">C</span></td>
+          </tr>
+          <tr>
+            <td class="sub-z">Zoology</td><td>Medical Technology & Applied Bio</td>
+            <td class="q-num">2</td><td>1%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-z" style="width:13%"></div></div></td>
+            <td><span class="tag tag-c">C</span></td>
+          </tr>
+          <!-- BOTANY -->
+          <tr><td colspan="6" style="background:#13102a;color:#818cf8;font-weight:700;font-size:12px;padding:8px 16px;letter-spacing:1px;">BOTANY — 40 Questions (20%)</td></tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Biodiversity</td>
+            <td class="q-num">9</td><td>4.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:100%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Genetics</td>
+            <td class="q-num">6</td><td>3%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:67%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Plant Physiology</td>
+            <td class="q-num">6</td><td>3%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:67%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Cell Biology</td>
+            <td class="q-num">5</td><td>2.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:56%"></div></div></td>
+            <td><span class="tag tag-a">A</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Ecology & Vegetation</td>
+            <td class="q-num">4</td><td>2%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:44%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Applied Botany</td>
+            <td class="q-num">3</td><td>1.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:33%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Plant Anatomy</td>
+            <td class="q-num">3</td><td>1.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:33%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Developmental Botany</td>
+            <td class="q-num">2</td><td>1%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:22%"></div></div></td>
+            <td><span class="tag tag-c">C</span></td>
+          </tr>
+          <tr>
+            <td class="sub-b">Botany</td><td>Basic Components of Life</td>
+            <td class="q-num">2</td><td>1%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-b" style="width:22%"></div></div></td>
+            <td><span class="tag tag-c">C</span></td>
+          </tr>
+          <!-- CHEMISTRY -->
+          <tr><td colspan="6" style="background:#1a1505;color:#fbbf24;font-weight:700;font-size:12px;padding:8px 16px;letter-spacing:1px;">CHEMISTRY — 50 Questions (25%)</td></tr>
+          <tr>
+            <td class="sub-c">Chemistry</td><td>Physical Chemistry</td>
+            <td class="q-num">17</td><td>8.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-c" style="width:100%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-c">Chemistry</td><td>Organic Chemistry</td>
+            <td class="q-num">17</td><td>8.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-c" style="width:100%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-c">Chemistry</td><td>Inorganic Chemistry</td>
+            <td class="q-num">10</td><td>5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-c" style="width:59%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-c">Chemistry</td><td>Applied Chemistry</td>
+            <td class="q-num">3</td><td>1.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-c" style="width:18%"></div></div></td>
+            <td><span class="tag tag-c">C</span></td>
+          </tr>
+          <tr>
+            <td class="sub-c">Chemistry</td><td>Analytical Chemistry</td>
+            <td class="q-num">3</td><td>1.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-c" style="width:18%"></div></div></td>
+            <td><span class="tag tag-c">C</span></td>
+          </tr>
+          <!-- PHYSICS -->
+          <tr><td colspan="6" style="background:#1a0808;color:#f87171;font-weight:700;font-size:12px;padding:8px 16px;letter-spacing:1px;">PHYSICS — 50 Questions (25%)</td></tr>
+          <tr>
+            <td class="sub-p">Physics</td><td>Modern Physics</td>
+            <td class="q-num">12</td><td>6%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-p" style="width:100%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-p">Physics</td><td>Mechanics</td>
+            <td class="q-num">10</td><td>5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-p" style="width:83%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-p">Physics</td><td>Current Electricity & Magnetism</td>
+            <td class="q-num">9</td><td>4.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-p" style="width:75%"></div></div></td>
+            <td><span class="tag tag-a">A — MUST</span></td>
+          </tr>
+          <tr>
+            <td class="sub-p">Physics</td><td>Waves & Optics</td>
+            <td class="q-num">8</td><td>4%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-p" style="width:67%"></div></div></td>
+            <td><span class="tag tag-a">A</span></td>
+          </tr>
+          <tr>
+            <td class="sub-p">Physics</td><td>Heat & Thermodynamics</td>
+            <td class="q-num">7</td><td>3.5%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-p" style="width:58%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <tr>
+            <td class="sub-p">Physics</td><td>Electrostatics & Capacitors</td>
+            <td class="q-num">4</td><td>2%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill bar-p" style="width:33%"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+          <!-- MAT -->
+          <tr><td colspan="6" style="background:#0d1220;color:#94a3b8;font-weight:700;font-size:12px;padding:8px 16px;letter-spacing:1px;">MENTAL AGILITY TEST — 20 Questions (10%)</td></tr>
+          <tr>
+            <td class="sub-m">MAT</td><td>Verbal + Numerical + Logical + Spatial/Abstract (5 each)</td>
+            <td class="q-num">20</td><td>10%</td>
+            <td class="bar-cell"><div class="bar-track"><div class="bar-fill" style="width:50%;background:#64748b"></div></div></td>
+            <td><span class="tag tag-b">B</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION 2: PRIORITY RANKING -->
+  <section>
+    <div class="section-title">🎯 Strategic Priority Ranking</div>
+    <p class="section-meta">Based on weightage × scoring difficulty × preparation time required</p>
+
+    <div class="priority-grid">
+      <div class="priority-card pc-a">
+        <h3><span class="tag tag-a">PRIORITY A</span> — Must Complete First</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Highest marks + high scoring potential. No excuses to skip these.</p>
+        <ul>
+          <li>Human Biology & Physiology (Zoology)<span class="chapter-q">15 Qs</span></li>
+          <li>Physical Chemistry (all subtopics)<span class="chapter-q">17 Qs</span></li>
+          <li>Organic Chemistry (reactions + mechanisms)<span class="chapter-q">17 Qs</span></li>
+          <li>Modern Physics (nuclear + quantum)<span class="chapter-q">12 Qs</span></li>
+          <li>Mechanics (numericals + laws)<span class="chapter-q">10 Qs</span></li>
+          <li>Current Electricity & Magnetism<span class="chapter-q">9 Qs</span></li>
+          <li>Biodiversity (Botany — recall heavy)<span class="chapter-q">9 Qs</span></li>
+          <li>Genetics (Botany + crossover with Zoology)<span class="chapter-q">6+cross Qs</span></li>
+          <li>Plant Physiology (concept + diagrams)<span class="chapter-q">6 Qs</span></li>
+          <li>Waves & Optics<span class="chapter-q">8 Qs</span></li>
+        </ul>
+      </div>
+
+      <div class="priority-card pc-b">
+        <h3><span class="tag tag-b">PRIORITY B</span> — Important (Do After A)</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Medium weightage. Do thoroughly but don't let these delay Priority A.</p>
+        <ul>
+          <li>Study of Selected Animals (Plasmodium, Earthworm, Frog)<span class="chapter-q">6 Qs</span></li>
+          <li>Inorganic Chemistry (metals + non-metals)<span class="chapter-q">10 Qs</span></li>
+          <li>Cell Biology (Botany)<span class="chapter-q">5 Qs</span></li>
+          <li>Heat & Thermodynamics<span class="chapter-q">7 Qs</span></li>
+          <li>Microbial Diseases & Immunology<span class="chapter-q">4 Qs</span></li>
+          <li>Animal Tissues & Histology<span class="chapter-q">4 Qs</span></li>
+          <li>Animal Diversity & Classification<span class="chapter-q">4 Qs</span></li>
+          <li>Ecology & Vegetation (Botany)<span class="chapter-q">4 Qs</span></li>
+          <li>Electrostatics & Capacitors<span class="chapter-q">4 Qs</span></li>
+          <li>Evolutionary Biology<span class="chapter-q">3 Qs</span></li>
+          <li>Plant Anatomy<span class="chapter-q">3 Qs</span></li>
+          <li>Applied Botany<span class="chapter-q">3 Qs</span></li>
+          <li>MAT (daily 20-min practice)<span class="chapter-q">20 Qs</span></li>
+        </ul>
+      </div>
+
+      <div class="priority-card pc-c">
+        <h3><span class="tag tag-c">PRIORITY C</span> — Low Priority (Only if Time Allows)</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Only 2 Qs each. Quick read + memorize key facts. Don't invest deep time here.</p>
+        <ul>
+          <li>Applied Chemistry<span class="chapter-q">3 Qs</span></li>
+          <li>Analytical Chemistry<span class="chapter-q">3 Qs</span></li>
+          <li>Biota, Environment & Conservation<span class="chapter-q">2 Qs</span></li>
+          <li>Medical Technology & Applied Bio<span class="chapter-q">2 Qs</span></li>
+          <li>Developmental Botany<span class="chapter-q">2 Qs</span></li>
+          <li>Basic Components of Life (Botany)<span class="chapter-q">2 Qs</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Key Insight:</strong> Priority A topics cover <strong>~121 out of 200 questions (60.5%)</strong>. Mastering these alone puts you well above the 50th percentile threshold. Focus 70% of your total preparation time on Priority A.
+    </div>
+  </section>
+
+  <!-- SECTION 3: TOP 20 CHAPTERS -->
+  <section>
+    <div class="section-title">🏆 Top 20 Most Important Chapters</div>
+    <p class="section-meta">Ranked by: weightage × scoring ease × interconnection with other topics</p>
+
+    <div class="top20-grid">
+      <div class="top20-item">
+        <div class="rank-num rn-gold">01</div>
+        <div class="top20-info"><h4>Human Physiology (Zoology)</h4><p>15 Qs · Digestive, Circulatory, Nervous, Reproductive systems</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-gold">02</div>
+        <div class="top20-info"><h4>Physical Chemistry</h4><p>17 Qs · Equilibrium, Kinetics, Electrochemistry, Thermodynamics</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-gold">03</div>
+        <div class="top20-info"><h4>Organic Chemistry</h4><p>17 Qs · Reactions, Mechanisms, Functional Groups</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-silver">04</div>
+        <div class="top20-info"><h4>Modern Physics</h4><p>12 Qs · Nuclear, Photoelectric, Bohr, Semiconductor, Radioactivity</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-silver">05</div>
+        <div class="top20-info"><h4>Mechanics</h4><p>10 Qs · Newton's Laws, Energy, SHM, Fluids, Rotational</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-silver">06</div>
+        <div class="top20-info"><h4>Current Electricity & Magnetism</h4><p>9 Qs · Kirchhoff, EMI, AC Circuits, Transformer</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-bronze">07</div>
+        <div class="top20-info"><h4>Biodiversity (Botany)</h4><p>9 Qs · Classification, Fungi, Algae, Angiosperms, Medicinal Plants</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-bronze">08</div>
+        <div class="top20-info"><h4>Waves & Optics</h4><p>8 Qs · Doppler, Interference, Diffraction, Lens</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-bronze">09</div>
+        <div class="top20-info"><h4>Genetics (Botany)</h4><p>6 Qs · DNA, Mendel, Linkage, Mutation, Genetic disorders</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">10</div>
+        <div class="top20-info"><h4>Plant Physiology</h4><p>6 Qs · Photosynthesis, Respiration, Transpiration, Growth</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">11</div>
+        <div class="top20-info"><h4>Study of Selected Animals</h4><p>6 Qs · Plasmodium, Earthworm (Pheretima), Frog (Rana)</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">12</div>
+        <div class="top20-info"><h4>Heat & Thermodynamics</h4><p>7 Qs · Gas laws, Laws of Thermodynamics, Engines</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">13</div>
+        <div class="top20-info"><h4>Inorganic Chemistry</h4><p>10 Qs · Metals, Non-metals, Transition metals, Complexes</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">14</div>
+        <div class="top20-info"><h4>Cell Biology (Botany)</h4><p>5 Qs · Cell organelles, Cell cycle, Mitosis, Meiosis</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">15</div>
+        <div class="top20-info"><h4>Atomic Structure & Periodicity</h4><p>Within Physical Chem · Bohr, Quantum numbers, Periodic trends</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">16</div>
+        <div class="top20-info"><h4>Microbial Diseases & Immunology</h4><p>4 Qs · Typhoid, TB, HIV, Cholera, Vaccines, Antibodies</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">17</div>
+        <div class="top20-info"><h4>Animal Tissues & Histology</h4><p>4 Qs · Epithelial, Connective, Muscular, Nervous</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">18</div>
+        <div class="top20-info"><h4>Electrostatics & Capacitors</h4><p>4 Qs · Gauss Law, Coulomb's Law, Parallel Plate, Energy density</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">19</div>
+        <div class="top20-info"><h4>Ecology & Vegetation (Botany)</h4><p>4 Qs · Ecosystems, Biogeochemical cycles, Forest types of Nepal</p></div>
+      </div>
+      <div class="top20-item">
+        <div class="rank-num rn-norm">20</div>
+        <div class="top20-info"><h4>Evolutionary Biology</h4><p>3 Qs · Origin of life, Darwin, Lamarck, Human evolution chain</p></div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- SECTION 4: HIGH YIELD CATEGORIZATION -->
+  <section>
+    <div class="section-title">⚡ High-Yield Categorization</div>
+    <p class="section-meta">Smart topic grouping to maximize score per hour of preparation</p>
+
+    <div class="priority-grid">
+      <div class="priority-card" style="border-color:rgba(16,185,129,0.3);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#10b981,#34d399)"></div>
+        <h3 style="color:#10b981;">✅ High Weightage + Easy Marks</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Maximum return for minimum effort — attack these first</p>
+        <ul>
+          <li>Evolutionary theories (Darwin, Lamarck) — pure memorization</li>
+          <li>Human evolution chain (Ramapithecus → Homo sapiens)</li>
+          <li>Microbial disease agents + vaccine types</li>
+          <li>Animal Tissue types, structure, function (simple charts)</li>
+          <li>Biodiversity — Kingdom classification, medicinal plants</li>
+          <li>Genetics — Mendel's laws, blood groups, colour blindness</li>
+          <li>Semiconductor devices — p-n diode, logic gates (AND/OR/NOT)</li>
+          <li>Chemical bonding — Lewis structures, VSEPR shapes</li>
+          <li>Mole concept + stoichiometry numericals</li>
+          <li>Periodic trends (ionization energy, electronegativity)</li>
+          <li>Radioactivity half-life calculations</li>
+        </ul>
+      </div>
+
+      <div class="priority-card" style="border-color:rgba(245,158,11,0.3);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#f59e0b,#fbbf24)"></div>
+        <h3 style="color:#f59e0b;">🔄 Topics to Revise Repeatedly</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Concept-heavy or easily forgotten — needs 3–4 revision cycles</p>
+        <ul>
+          <li>Human Physiology — cardiac cycle, nerve impulse, hormones</li>
+          <li>Photosynthesis — Calvin cycle, C₃ vs C₄, Photosystems</li>
+          <li>Respiration — Glycolysis, Krebs cycle, ETS</li>
+          <li>Organic reactions — SN1/SN2, addition, substitution mechanisms</li>
+          <li>Ionic equilibrium — pH, buffer, Ksp problems</li>
+          <li>Electrochemistry — Nernst equation, cell EMF</li>
+          <li>Kinematics + Projectile numericals</li>
+          <li>Electromagnetic induction — Faraday, Lenz applications</li>
+          <li>Bohr's model + spectral lines + de Broglie</li>
+          <li>DNA replication + central dogma + genetic code</li>
+          <li>Mendelian genetics — dihybrid, incomplete dominance</li>
+        </ul>
+      </div>
+
+      <div class="priority-card" style="border-color:rgba(239,68,68,0.3);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ef4444,#f87171)"></div>
+        <h3 style="color:#ef4444;">⏱ Topics Students Waste Too Much Time On</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Low return for time invested in the CEE context. Limit time here.</p>
+        <ul>
+          <li>Analytical chemistry (only 3 Qs — don't over-deep dive)</li>
+          <li>Applied chemistry manufacturing processes (just key facts)</li>
+          <li>Organometallic compounds — only Grignard reactions matter</li>
+          <li>Crystal systems / Bravais lattices (1–2 recall Qs at most)</li>
+          <li>Animal behaviour — reflex/taxis/migration (only 2 Qs)</li>
+          <li>Detailed morphology of Dryopteris/Pinus/Marchantia (just key features)</li>
+          <li>Rotational dynamics — moment of inertia of complex shapes</li>
+          <li>Detailed plant breeding techniques (only 3 Qs Applied Botany)</li>
+          <li>Particle physics / Higgs boson (just conceptual — 1–2 Qs max)</li>
+          <li>Zone refining, electrorefining — just know the name</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="priority-grid" style="margin-top:16px;">
+      <div class="priority-card" style="border-color:rgba(99,102,241,0.3);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#6366f1,#818cf8)"></div>
+        <h3 style="color:#818cf8;">🔗 Interconnected Topics (Save Prep Time)</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">These chapters overlap — studying one helps another</p>
+        <ul>
+          <li><strong style="color:#a5b4fc">Genetics (Botany) ↔ Human Genetics (Zoology)</strong> — DNA, mutations, disorders overlap</li>
+          <li><strong style="color:#a5b4fc">Cell Biology (Botany) ↔ Animal Tissues (Zoology)</strong> — Organelles + tissue types share concepts</li>
+          <li><strong style="color:#a5b4fc">Physical Chem (Equilibrium) ↔ Ionic Equilibrium</strong> — Kc, Kp, Ksp all connect</li>
+          <li><strong style="color:#a5b4fc">Organic reactions ↔ Applied/Analytical Chemistry</strong> — Functional group tests connect</li>
+          <li><strong style="color:#a5b4fc">Modern Physics (Bohr) ↔ Atomic Structure (Chem)</strong> — Orbital theory overlaps</li>
+          <li><strong style="color:#a5b4fc">Photosynthesis ↔ Respiration</strong> — ATP production, enzyme pathways share concepts</li>
+          <li><strong style="color:#a5b4fc">Electrostatics ↔ Current Electricity</strong> — Potential, field, Gauss law connect</li>
+          <li><strong style="color:#a5b4fc">Microbiology ↔ Applied Botany (Biocontrol)</strong> — Microbes in agriculture topic</li>
+        </ul>
+      </div>
+
+      <div class="priority-card" style="border-color:rgba(16,185,129,0.2);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#10b981,#6366f1)"></div>
+        <h3 style="color:#34d399;">🔮 Most Expected Topics in CEE</h3>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:12px;">Perennially tested concepts — almost certain to appear</p>
+        <ul>
+          <li>Cardiac cycle + ECG basics (Human Physiology)</li>
+          <li>Blood groups + Rh factor (Human Physiology / Genetics)</li>
+          <li>Mole concept + percentage yield calculations</li>
+          <li>Le Chatelier's principle + equilibrium shifts</li>
+          <li>Organic: SN1 vs SN2 + Grignard reagent</li>
+          <li>Radioactivity — half-life numericals + carbon dating</li>
+          <li>Photoelectric effect — threshold frequency, work function</li>
+          <li>Kirchhoff's laws + Wheatstone bridge</li>
+          <li>Plasmodium life cycle + malaria types</li>
+          <li>Mendelian genetics — monohybrid / dihybrid crosses</li>
+          <li>Photosystem I & II + Calvin cycle steps</li>
+          <li>DNA replication + central dogma</li>
+          <li>Nepal-specific: Forest types, Protected areas, Endangered species</li>
+          <li>Medicinal plants of Nepal (Neem, Yarsagumba, Tulasi, etc.)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- SECTION 5: 3-MONTH MASTER PLAN -->
+  <section>
+    <div class="section-title">📅 3-Month Master Preparation Plan</div>
+    <p class="section-meta">Designed for an average student · 8–10 hours/day · Goal: Top MBBS Rank</p>
+
+    <div class="callout">
+      <strong>Plan Architecture:</strong> Month 1 = Foundation + High-Priority Completion · Month 2 = Medium Priority + Integration · Month 3 = Revision + Mock Tests + Final Optimization. Biology memorization runs in cycles across all 3 months.
+    </div>
+
+    <div class="month-grid">
+      <!-- MONTH 1 -->
+      <div class="month-card m1">
+        <div class="month-header">
+          <span>📗 Month 1 — Foundation & Priority A</span>
+          <span style="font-size:12px;color:#10b981;">Days 1–30</span>
+        </div>
+        <div class="month-body">
+          <p style="font-size:12px;color:var(--muted);margin-bottom:14px;">Goal: Complete ALL Priority A topics. Build strong conceptual base before moving to memorization-heavy content.</p>
+
+          <div class="week-item wk-g">
+            <h4>Week 1 · Days 1–7</h4>
+            <p><strong style="color:#10b981">Physics:</strong> Mechanics (Newton's Laws, Kinematics, Projectile, Work-Energy, Momentum, SHM)</p>
+            <ul>
+              <li>Zoology: Human Digestive + Respiratory Systems</li>
+              <li>Chemistry: Mole concept + Stoichiometry + Atomic Structure</li>
+              <li>Daily MAT: 15–20 questions</li>
+              <li>MCQ Target: 50 MCQs/day from chapters studied</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-g">
+            <h4>Week 2 · Days 8–14</h4>
+            <p><strong style="color:#10b981">Physics:</strong> Current Electricity + Magnetism (Ohm's Law, Kirchhoff, EMI, AC circuits, Transformer)</p>
+            <ul>
+              <li>Zoology: Circulatory System + Excretory System</li>
+              <li>Chemistry: Chemical Bonding + Equilibrium (physical + chemical)</li>
+              <li>Botany: Genetics (DNA, RNA, Mendel's Laws, Linkage, Crossing over)</li>
+              <li>MCQ Target: 60 MCQs/day</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-g">
+            <h4>Week 3 · Days 15–21</h4>
+            <p><strong style="color:#10b981">Physics:</strong> Modern Physics (Bohr, Photoelectric, Radioactivity, Semiconductor, Logic Gates, Nuclear)</p>
+            <ul>
+              <li>Zoology: Nervous System + Endocrinology + Reproductive System</li>
+              <li>Chemistry: Organic Chemistry Part 1 — General Organic, Hydrocarbons, Haloalkanes</li>
+              <li>Botany: Plant Physiology — Photosynthesis + Respiration</li>
+              <li>MCQ Target: 70 MCQs/day (cumulative chapters)</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-g">
+            <h4>Week 4 · Days 22–30</h4>
+            <p><strong style="color:#10b981">Physics:</strong> Waves & Optics (Doppler, Interference, Diffraction, Lens)</p>
+            <ul>
+              <li>Chemistry: Organic Chemistry Part 2 — Alcohols, Carbonyl, Carboxylic acid, Amines, Phenol</li>
+              <li>Chemistry: Ionic Equilibrium + Chemical Kinetics</li>
+              <li>Botany: Biodiversity Part 1 — Monera, Virus, Fungi, Algae</li>
+              <li>Biology Revision Cycle 1: Re-read Human Physiology (Zoology)</li>
+              <li>MCQ Target: 80 MCQs/day</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- MONTH 2 -->
+      <div class="month-card m2">
+        <div class="month-header">
+          <span>📙 Month 2 — Integration & Priority B</span>
+          <span style="font-size:12px;color:#f59e0b;">Days 31–60</span>
+        </div>
+        <div class="month-body">
+          <p style="font-size:12px;color:var(--muted);margin-bottom:14px;">Goal: Complete Priority B topics, integrate knowledge across subjects, begin mock tests.</p>
+
+          <div class="week-item wk-y">
+            <h4>Week 5 · Days 31–37</h4>
+            <p><strong style="color:#f59e0b">Chemistry:</strong> Electrochemistry + Thermodynamics + Nuclear Chemistry</p>
+            <ul>
+              <li>Botany: Biodiversity Part 2 — Bryophytes, Pteridophytes, Gymnosperms, Angiosperms + Floral Families</li>
+              <li>Zoology: Study of Selected Animals — Plasmodium + Earthworm (Pheretima)</li>
+              <li>Physics: Heat & Thermodynamics</li>
+              <li>First Mock Test (full 200 Qs) — analyze weak areas</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-y">
+            <h4>Week 6 · Days 38–44</h4>
+            <p><strong style="color:#f59e0b">Chemistry:</strong> Inorganic Chemistry — Chemistry of Non-metals + Metals</p>
+            <ul>
+              <li>Zoology: Study of Selected Animals — Frog (Rana) + Microbial Diseases + Immunology</li>
+              <li>Botany: Cell Biology — organelles, cell cycle, mitosis, meiosis</li>
+              <li>Physics: Electrostatics + Capacitors</li>
+              <li>Biology Revision Cycle 2: Genetics (Botany) + Human Genetics crossover</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-y">
+            <h4>Week 7 · Days 45–51</h4>
+            <p><strong style="color:#f59e0b">Botany:</strong> Ecology & Vegetation + Plant Anatomy + Applied Botany</p>
+            <ul>
+              <li>Zoology: Animal Tissues + Animal Diversity + Evolutionary Biology</li>
+              <li>Chemistry: Volumetric Analysis + Analytical Chemistry</li>
+              <li>Physics: Revision of Mechanics numericals + Modern Physics numericals</li>
+              <li>Mock Test 2 · Target score improvement</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-y">
+            <h4>Week 8 · Days 52–60</h4>
+            <p><strong style="color:#f59e0b">Integration Week</strong> — Cross-subject connections</p>
+            <ul>
+              <li>Complete Priority C topics quickly (read key facts, make flashcards)</li>
+              <li>MAT intensive: 30–40 Qs/day across all 4 types</li>
+              <li>Chemistry Organic: Full reaction chart revision</li>
+              <li>Biology Revision Cycle 3: Biodiversity + Microbiology</li>
+              <li>Mock Test 3 · Full 200 Qs under timed conditions</li>
+              <li>MCQ Daily Target: 100 Qs/day</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- MONTH 3 -->
+      <div class="month-card m3">
+        <div class="month-header">
+          <span>📕 Month 3 — Revision + Mastery</span>
+          <span style="font-size:12px;color:#ef4444;">Days 61–90</span>
+        </div>
+        <div class="month-body">
+          <p style="font-size:12px;color:var(--muted);margin-bottom:14px;">Goal: Zero new topics. Full revision cycles. Maximize mock test scores. Accuracy optimization (due to negative marking).</p>
+
+          <div class="week-item wk-r">
+            <h4>Week 9 · Days 61–67</h4>
+            <p><strong style="color:#ef4444">Full Revision Round 1</strong></p>
+            <ul>
+              <li>Physics: Mechanics + Modern Physics revision + numericals bank</li>
+              <li>Chemistry: Physical Chem + Organic Chem full chapter review</li>
+              <li>Biology: Human Physiology + Genetics full revision</li>
+              <li>Mock Test 4 · Analyze wrong answers deeply</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-r">
+            <h4>Week 10 · Days 68–74</h4>
+            <p><strong style="color:#ef4444">Full Revision Round 2</strong></p>
+            <ul>
+              <li>Physics: Current Electricity + Waves/Optics revision</li>
+              <li>Chemistry: Inorganic Chemistry + Electrochemistry</li>
+              <li>Biology: Biodiversity + Cell Biology + Ecology revision</li>
+              <li>MAT: Time yourself — 20 MAT Qs in 15 minutes</li>
+              <li>Mock Test 5 + error log update</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-r">
+            <h4>Week 11 · Days 75–81</h4>
+            <p><strong style="color:#ef4444">Subject-wise Intensive Revision</strong></p>
+            <ul>
+              <li>Day 75–76: Physics only (50 Qs practice)</li>
+              <li>Day 77–78: Chemistry only (50 Qs practice)</li>
+              <li>Day 79–80: Biology only (80 Qs practice)</li>
+              <li>Day 81: MAT (20 Qs) + Full paper simulation</li>
+              <li>Mock Test 6 · Target: 70%+ accuracy</li>
+            </ul>
+          </div>
+
+          <div class="week-item wk-r">
+            <h4>Week 12 · Days 82–90</h4>
+            <p><strong style="color:#ef4444">Final Precision Phase</strong></p>
+            <ul>
+              <li>Daily: 1 full mock test (timed, negative marking applied)</li>
+              <li>Error analysis: make "mistake journal"</li>
+              <li>Flashcard sprint: Biology facts + Organic reactions + Physics formulas</li>
+              <li>Days 88–90: Last 3 days plan (see below)</li>
+              <li>NO new topics. Consolidation only.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: DAILY ROUTINE -->
+  <section>
+    <div class="section-title">⏰ Optimized Daily Routine (8–10 Hours)</div>
+    <p class="section-meta">Time allocation weighted by subject importance. Adjust based on your weak areas.</p>
+
+    <div class="routine-grid">
+      <div class="routine-block">
+        <div class="routine-time">05:30 – 07:30 · 2 hrs</div>
+        <div class="routine-task"><strong>Biology (Fresh Brain)</strong><br>Human Physiology / Genetics / Biodiversity — high-memorization content in peak alertness window</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">07:30 – 07:50 · 20 min</div>
+        <div class="routine-task"><strong>MAT Practice</strong><br>20 mixed questions — Verbal, Numerical, Logical, Spatial. Keep this consistent daily.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">08:00 – 10:30 · 2.5 hrs</div>
+        <div class="routine-task"><strong>Physics (Numericals Focus)</strong><br>Study + solve numericals. Modern Physics, Mechanics, Electricity & Magnetism priority. Formula derivations + concept MCQs.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">10:30 – 11:00 · 30 min</div>
+        <div class="routine-task"><strong>Break + Light Revision</strong><br>Flash-read previous day's Biology notes. Eat, rest eyes.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">11:00 – 13:30 · 2.5 hrs</div>
+        <div class="routine-task"><strong>Chemistry (Reactions & Problems)</strong><br>Physical Chem numericals + Organic mechanism practice. Priority A first always.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">13:30 – 14:30 · 1 hr</div>
+        <div class="routine-task"><strong>Lunch Break + Nap</strong><br>Do NOT study during this window. Rest allows memory consolidation.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">14:30 – 16:30 · 2 hrs</div>
+        <div class="routine-task"><strong>MCQ Practice Session</strong><br>50–80 MCQs from ALL subjects of that day. Timed practice. Mark confidence level per question.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">16:30 – 17:00 · 30 min</div>
+        <div class="routine-task"><strong>Error Analysis</strong><br>Review wrong MCQ answers. Note pattern mistakes. Update error journal.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">17:00 – 18:30 · 1.5 hrs</div>
+        <div class="routine-task"><strong>Botany + Remaining Biology</strong><br>Plant Physiology, Cell Biology, Ecology. Diagram-based learning for Photosynthesis, Cell cycle.</div>
+      </div>
+      <div class="routine-block">
+        <div class="routine-time">19:30 – 21:00 · 1.5 hrs</div>
+        <div class="routine-task"><strong>Night Revision</strong><br>Re-read today's notes. Focus on formulae, reactions, key facts. Make condensed flashcards. No new content after 9 PM.</div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:20px;">
+      <strong>Time Distribution Summary:</strong> Physics = 2.5h · Chemistry = 2.5h · Biology = 3.5h (Zoology+Botany) · MAT = 0.5h · MCQ+Review = 2.5h per day. Adjust Biology upward if Biodiversity memorization is weak. Adjust Physics upward if numerical practice is insufficient.
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- SECTION 7: MCQ STRATEGY -->
+  <section>
+    <div class="section-title">📝 MCQ Solving Strategy & Negative Marking Management</div>
+    <p class="section-meta">Critical for MBBS competition — accuracy matters more than attempting all questions</p>
+
+    <div class="priority-grid">
+      <div class="priority-card" style="border-color:rgba(16,185,129,0.25);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#10b981"></div>
+        <h3 style="color:#10b981;">Negative Marking Strategy</h3>
+        <ul>
+          <li>Attempt ONLY if confidence ≥ 60% → Saves marks from random guessing</li>
+          <li>4 wrong answers cancel 1 right answer (−0.25 each) — be selective</li>
+          <li>If 2 options are eliminated → attempt. If all options unknown → skip</li>
+          <li>Biology recall Qs → attempt all (you either know or don't)</li>
+          <li>Physics/Chemistry numericals → attempt if formula is known</li>
+          <li>Target: Attempt 165–180 Qs, not all 200</li>
+        </ul>
+      </div>
+      <div class="priority-card" style="border-color:rgba(245,158,11,0.25);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#f59e0b"></div>
+        <h3 style="color:#f59e0b;">Exam Time Management (3 Hours)</h3>
+        <ul>
+          <li>First 10 min: Scan entire paper, mark easy Qs</li>
+          <li>Biology (80 Qs) → Target 40 minutes (recall-heavy)</li>
+          <li>Chemistry (50 Qs) → Target 50 minutes</li>
+          <li>Physics (50 Qs) → Target 55 minutes (numericals take time)</li>
+          <li>MAT (20 Qs) → Target 20 minutes</li>
+          <li>Last 15 min: Review marked/skipped questions</li>
+        </ul>
+      </div>
+      <div class="priority-card" style="border-color:rgba(99,102,241,0.25);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#6366f1"></div>
+        <h3 style="color:#818cf8;">Monthly MCQ Targets</h3>
+        <ul>
+          <li>Month 1: 50–70 MCQs/day (chapter-wise)</li>
+          <li>Month 2: 80–100 MCQs/day (mixed)</li>
+          <li>Month 3: 1 full paper/day (200 Qs timed)</li>
+          <li>Total MCQs solved by exam day: 5,000–7,000</li>
+          <li>Mock Test frequency: Month 1 = 0, Month 2 = 3, Month 3 = 8+</li>
+          <li>Always solve PYQs (Previous Year Questions) alongside chapters</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- SECTION 8: SUBJECT-SPECIFIC TIPS -->
+  <section>
+    <div class="section-title">🔬 Subject-Specific Preparation Tips</div>
+    <p class="section-meta">CEE-specific guidance, not generic NEET advice</p>
+
+    <div class="priority-grid">
+      <div class="priority-card" style="border-color:rgba(16,185,129,0.2);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#10b981"></div>
+        <h3 style="color:#10b981;">🐾 Zoology (40 Qs)</h3>
+        <ul>
+          <li><strong>Human Physiology (15 Qs):</strong> Make organ-system diagrams. Learn cardiac cycle graph. Memorize hormone names + target organs. Know renal filtration values.</li>
+          <li><strong>Plasmodium:</strong> Learn life cycle stages precisely — sporozoite→merozoite→gametocyte. Falciparum vs vivax malaria.</li>
+          <li><strong>Earthworm (Pheretima):</strong> Segmentation, clitellum position, nephridia types.</li>
+          <li><strong>Frog (Rana):</strong> Skin respiration, double circulation, cranial nerves count.</li>
+          <li><strong>Immunology:</strong> IgG vs IgM; primary vs secondary response; types of vaccines.</li>
+        </ul>
+      </div>
+
+      <div class="priority-card" style="border-color:rgba(99,102,241,0.2);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#6366f1"></div>
+        <h3 style="color:#818cf8;">🌿 Botany (40 Qs)</h3>
+        <ul>
+          <li><strong>Biodiversity (9 Qs):</strong> Memorize diagnostic features of each plant group. Floral formulae of Brassicaceae, Solanaceae, Fabaceae, Liliaceae are very frequently tested. Nepal medicinal plants — 5 given in syllabus — learn each one's use.</li>
+          <li><strong>Genetics (6 Qs):</strong> Crosses overlap with Zoology genetics — study together. Focus on chromosomal mutations + disorders (Down's, Turner's, Klinefelter's).</li>
+          <li><strong>Photosynthesis:</strong> Know exactly which products form in which stage of Calvin cycle. C3 vs C4 plants (difference table).</li>
+          <li><strong>Ecology:</strong> Nepal forest types + biogeochemical cycles are frequently asked.</li>
+        </ul>
+      </div>
+
+      <div class="priority-card" style="border-color:rgba(245,158,11,0.2);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#f59e0b"></div>
+        <h3 style="color:#f59e0b;">⚗️ Chemistry (50 Qs)</h3>
+        <ul>
+          <li><strong>Physical Chem (17 Qs):</strong> Master numericals in Equilibrium, Kinetics, Electrochemistry, Thermodynamics. Stoichiometry basics must be perfect — they show up as application Qs.</li>
+          <li><strong>Organic (17 Qs):</strong> Make a reaction chart for each functional group. Focus: Grignard reagent reactions, SN1 vs SN2 conditions, Aldol condensation, esterification, amine basicity comparison.</li>
+          <li><strong>Inorganic (10 Qs):</strong> Know extraction processes briefly (names + stages). Transition metal complex shapes (tetrahedral, octahedral, square planar).</li>
+          <li><strong>Ionic Equilibrium:</strong> pH calculation, buffer Henderson equation, Ksp are sure shots.</li>
+        </ul>
+      </div>
+
+      <div class="priority-card" style="border-color:rgba(239,68,68,0.2);">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:#ef4444"></div>
+        <h3 style="color:#ef4444;">⚡ Physics (50 Qs)</h3>
+        <ul>
+          <li><strong>Modern Physics (12 Qs):</strong> Highest Physics chapter. Do Bohr radius/energy level formulas. Practice half-life calculations. Know work function problems. Logic gates truth tables — AND, OR, NOT, NAND, NOR.</li>
+          <li><strong>Mechanics (10 Qs):</strong> SHM equations (x=Asinωt etc.), Bernoulli's applications, Stokes law. Newton's laws application problems.</li>
+          <li><strong>Electricity & Magnetism (9 Qs):</strong> Kirchhoff's loop/junction method, transformer equations, Faraday's law numericals, AC circuit impedance formula.</li>
+          <li><strong>Waves (8 Qs):</strong> Doppler formula for all cases (source moving/observer moving). Young's double slit fringe width formula.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- SECTION 9: CRASH PLAN -->
+  <section>
+    <div class="section-title">🚨 Crash Strategy — Last 15 Days</div>
+    <p class="section-meta">Days 76–90: No new learning. Pure optimization and accuracy building.</p>
+
+    <div class="crash-grid">
+      <div class="crash-card">
+        <h3>Days 76–80 · High-Speed Revision</h3>
+        <ul>
+          <li>Complete 1 full mock test daily (timed, negative marking applied)</li>
+          <li>Biology: 4 complete read-throughs of Human Physiology notes</li>
+          <li>Chemistry: Organic reaction chart — review all named reactions</li>
+          <li>Physics: Solve 30 numerical problems daily (modern + mechanics)</li>
+          <li>Mistake journal: identify your top 10 error patterns</li>
+          <li>Biodiversity flashcard sprint — 9 Qs worth, can't afford to lose here</li>
+        </ul>
+      </div>
+
+      <div class="crash-card">
+        <h3>Days 81–85 · Subject Sprints</h3>
+        <ul>
+          <li>Day 81: Physics only — 50 Qs timed practice</li>
+          <li>Day 82: Chemistry only — 50 Qs timed practice</li>
+          <li>Day 83: Biology only — 80 Qs timed practice</li>
+          <li>Day 84: Full paper simulation (200 Qs, 3 hrs)</li>
+          <li>Day 85: MAT intensive + weak-subject targeted revision</li>
+          <li>Identify your guaranteed 140+ score base from known chapters</li>
+        </ul>
+      </div>
+
+      <div class="crash-card">
+        <h3>Days 86–87 · Formula & Fact Consolidation</h3>
+        <ul>
+          <li>Physics: 1-page formula sheet for each chapter</li>
+          <li>Chemistry: Organic reactions mega-list (reactions only, no derivations)</li>
+          <li>Biology: "Nepal-specific" facts — forest types, endemic species, medicinal plants</li>
+          <li>Genetics: All 5–6 genetic disorder syndromes with chromosome abnormality</li>
+          <li>MAT: 25 Qs timed in 18 minutes — build speed</li>
+          <li>Review your error journal one final time</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- LAST 3 DAYS -->
+    <div style="margin-top:30px;">
+      <div class="section-title" style="font-size:20px;">⏳ Last 3 Days Revision Plan</div>
+      <div style="height:8px;"></div>
+      <div class="crash-grid">
+        <div class="crash-card" style="border-color:rgba(239,68,68,0.4);">
+          <h3>Day 88 — Biology Day</h3>
+          <ul>
+            <li>Morning: Full Human Physiology read (Zoology)</li>
+            <li>Afternoon: Genetics + Cell Biology (Botany)</li>
+            <li>Evening: Biodiversity + Ecology + Microbiology</li>
+            <li>Night: 40 Biology MCQs from these chapters</li>
+            <li>No new Chemistry or Physics today</li>
+          </ul>
+        </div>
+        <div class="crash-card" style="border-color:rgba(239,68,68,0.4);">
+          <h3>Day 89 — Physics & Chemistry Day</h3>
+          <ul>
+            <li>Morning: Physics formulas + 20 numerical MCQs</li>
+            <li>Afternoon: Organic Chemistry reaction chains</li>
+            <li>Evening: Physical Chemistry key numericals (pH, Ksp, half-life)</li>
+            <li>Night: 30 Chemistry + 20 Physics MCQs only</li>
+            <li>Review MAT question types for 20 minutes</li>
+          </ul>
+        </div>
+        <div class="crash-card" style="border-color:rgba(239,68,68,0.4);">
+          <h3>Day 90 — Calm Consolidation</h3>
+          <ul>
+            <li>Morning: Light revision — only what you're most confident about</li>
+            <li>Do NOT attempt full mock test today</li>
+            <li>Review your condensed 1-page notes per subject</li>
+            <li>Afternoon: Rest. Walk. No screens for 2 hours.</li>
+            <li>Evening: Light MAT practice (10 questions only)</li>
+            <li>Night: Sleep by 10 PM. Exam day prep laid out.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- SECTION 10: COMMON MISTAKES -->
+  <section>
+    <div class="section-title">❌ Common Mistakes to Avoid</div>
+    <p class="section-meta">These mistakes have cost many students their MBBS seat</p>
+
+    <div class="mistake-list">
+      <div class="mistake-item">
+        <div class="mistake-icon">🔄</div>
+        <div><strong>Equal Time to All Topics</strong>Human Physiology (15 Qs) needs 5× more time than Biota & Conservation (2 Qs). Allocate time proportional to weightage.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">❓</div>
+        <div><strong>Guessing Without Elimination</strong>With −0.25 marking, random guessing on 20 unknown Qs loses 5 marks. Always eliminate at least 2 options before attempting.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">📖</div>
+        <div><strong>Reading without MCQ Practice</strong>Reading 10 hours without solving MCQs builds false confidence. 40% of study time must be active MCQ solving.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">🧪</div>
+        <div><strong>Skipping Physical Chemistry Numericals</strong>17 questions from Physical Chemistry — mostly numerical. Students who only read theory leave these marks on the table.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">🔬</div>
+        <div><strong>Neglecting Modern Physics (12 Qs)</strong>This is the single highest-scoring Physics chapter. Students avoid it as "difficult" — but nuclear + semiconductor Qs are actually formulaic.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">🌿</div>
+        <div><strong>Underestimating Biodiversity (9 Qs)</strong>Biodiversity is the highest Botany chapter. Students skip it assuming "too much memorization" — but systematic study of plant groups makes these easy points.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">📅</div>
+        <div><strong>No Mock Tests in Month 1</strong>Starting mock tests only in Month 3 means wasted weeks. Begin chapter-wise MCQ tests from Day 7 and full mocks from Month 2 Week 1.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">🎯</div>
+        <div><strong>Treating MAT as Unimportant</strong>20 questions = 10% of the paper. With CEE's 50th percentile system, MAT can be the differentiator for borderline MBBS ranks. Practice daily.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">🗂️</div>
+        <div><strong>No Error Journal</strong>Repeating the same mistakes without tracking them is the biggest preparation inefficiency. Every wrong MCQ must be understood and documented.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">⏰</div>
+        <div><strong>Not Practicing Under Time Pressure</strong>3 hours for 200 Qs = 54 seconds/question. Students who don't practice timed conditions often fail to finish the paper despite knowing content.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">🇳🇵</div>
+        <div><strong>Forgetting Nepal-Specific Content</strong>Forest types of Nepal, protected areas, Ramsar sites, endemic species — these appear in Ecology, Zoology, Botany. Nepal context questions are almost guaranteed.</div>
+      </div>
+      <div class="mistake-item">
+        <div class="mistake-icon">📱</div>
+        <div><strong>Ignoring Biology Revision Cycles</strong>Biology memory fades in 7–10 days without revision. Must do at least 3 complete revision rounds of Human Physiology and Genetics over 3 months.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CHECKLIST -->
+  <section>
+    <div class="section-title">✅ Pre-Exam Readiness Checklist</div>
+    <p class="section-meta">Ensure all boxes are mentally checked before examination day</p>
+    <div class="checklist">
+      <div class="check-item">All 15 Human Physiology subtopics covered</div>
+      <div class="check-item">Physical Chemistry numericals practiced (17 Qs worth)</div>
+      <div class="check-item">Organic reaction chart memorized</div>
+      <div class="check-item">Modern Physics formulas consolidated</div>
+      <div class="check-item">Biodiversity classification mastered</div>
+      <div class="check-item">Genetics: Mendel + mutations + disorders</div>
+      <div class="check-item">Plasmodium + Earthworm + Frog life cycles</div>
+      <div class="check-item">At least 8 full mock tests completed</div>
+      <div class="check-item">Total MCQs solved: 5,000+</div>
+      <div class="check-item">Nepal-specific ecology + biology content done</div>
+      <div class="check-item">MAT: All 4 types practiced daily</div>
+      <div class="check-item">Negative marking strategy internalized</div>
+      <div class="check-item">Error journal reviewed 3+ times</div>
+      <div class="check-item">Time allocation per section practiced</div>
+      <div class="check-item">5 medicinal plants of Nepal memorized</div>
+      <div class="check-item">Floral formulae: 4 families memorized</div>
+      <div class="check-item">Logic gates truth tables ready</div>
+      <div class="check-item">Half-life calculation practice done</div>
+      <div class="check-item">pH / buffer / Ksp numericals revised</div>
+      <div class="check-item">Kirchhoff's law problem-solving practiced</div>
+    </div>
+  </section>
+
+</div>
+<!-- ===== TOPIC TRACKER ===== -->
+<div class="tracker-hero">
+  <h2>📋 Topic Completion Tracker</h2>
+  <p>Click any subtopic checkbox to mark it done · Click chapter checkbox to mark all subtopics · Progress saves in your browser</p>
+  <div class="overall-progress">
+    <h3>Overall Preparation Progress <span id="overall-pct">0%</span></h3>
+    <div class="big-bar-track"><div class="big-bar-fill" id="overall-bar" style="width:0%"></div></div>
+    <div class="progress-sub-stats">
+      <span id="overall-done">0 subtopics done</span>
+      <span id="overall-left">0 remaining</span>
+    </div>
+  </div>
+</div>
+
+<div style="max-width:900px;margin:28px auto 0;padding:0 24px;">
+  <div class="subject-progress-row">
+    <div class="subj-prog-card">
+      <div class="subj-name">🐾 Zoology</div>
+      <div class="subj-pct" id="pct-zoology" style="color:#10b981">0%</div>
+      <div class="subj-mini-bar"><div class="subj-mini-fill fill-z" id="bar-zoology" style="width:0%"></div></div>
+    </div>
+    <div class="subj-prog-card">
+      <div class="subj-name">🌿 Botany</div>
+      <div class="subj-pct" id="pct-botany" style="color:#818cf8">0%</div>
+      <div class="subj-mini-bar"><div class="subj-mini-fill fill-b" id="bar-botany" style="width:0%"></div></div>
+    </div>
+    <div class="subj-prog-card">
+      <div class="subj-name">⚗️ Chemistry</div>
+      <div class="subj-pct" id="pct-chemistry" style="color:#f59e0b">0%</div>
+      <div class="subj-mini-bar"><div class="subj-mini-fill fill-c" id="bar-chemistry" style="width:0%"></div></div>
+    </div>
+    <div class="subj-prog-card">
+      <div class="subj-name">⚡ Physics</div>
+      <div class="subj-pct" id="pct-physics" style="color:#ef4444">0%</div>
+      <div class="subj-mini-bar"><div class="subj-mini-fill fill-p" id="bar-physics" style="width:0%"></div></div>
+    </div>
+    <div class="subj-prog-card">
+      <div class="subj-name">🧠 MAT</div>
+      <div class="subj-pct" id="pct-mat" style="color:#94a3b8">0%</div>
+      <div class="subj-mini-bar"><div class="subj-mini-fill fill-m" id="bar-mat" style="width:0%"></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="tracker-controls">
+  <button class="ctrl-btn active" onclick="filterTopics('all',this)">All Topics</button>
+  <button class="ctrl-btn" onclick="filterTopics('pending',this)">⏳ Pending Only</button>
+  <button class="ctrl-btn" onclick="filterTopics('done',this)">✅ Completed Only</button>
+  <button class="ctrl-btn" onclick="expandAll()">↕ Expand All</button>
+  <button class="ctrl-btn" onclick="collapseAll()">↕ Collapse All</button>
+  <button class="ctrl-btn danger" onclick="resetAll()">🔄 Reset All Progress</button>
+</div>
+
+<div class="tracker-container">
+  <div class="completion-banner" id="completion-banner">🎉 All topics completed! You are fully prepared for CEE MBBS! Best of luck! 🎉</div>
+
+
+  <!-- ZOOLOGY -->
+  <div class="tracker-subject" id="subj-zoology">
+    <div class="tracker-subj-header" onclick="toggleSubject('zoology')">
+      <div class="tracker-subj-header-left">
+        <span class="subj-icon">🐾</span>
+        <div class="subj-title-area"><h3 style="color:#10b981">Zoology</h3><p>40 Questions · 20% of Paper</p></div>
+      </div>
+      <div class="subj-header-right">
+        <span class="subj-count" id="count-zoology">0 / 8 chapters</span>
+        <span class="subj-pct-badge" id="badge-zoology" style="background:rgba(16,185,129,0.12);color:#10b981">0%</span>
+        <span class="chevron">▼</span>
+      </div>
+    </div>
+    <div class="subj-progress-bar"><div class="subj-progress-fill fill-z" id="subj-bar-zoology" style="width:0%"></div></div>
+    <div class="tracker-body" id="body-zoology">
+
+      <div class="chapter-group" id="ch-z1">
+        <div class="chapter-header" onclick="toggleChapter('z1')">
+          <div class="chapter-checkbox" id="chk-z1" onclick="toggleChapterCheck(event,'z1')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Evolutionary Biology <span class="chapter-qs">3 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Origin of life · Evidences · Theories · Human evolution</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z1-1')"><div class="sub-check" id="sub-z1-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z1-1">Oparin-Haldane theory + Miller-Urey experiment</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z1-2')"><div class="sub-check" id="sub-z1-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z1-2">Evidences of evolution (Morphological, Anatomical, Paleontological, Embryological, Biochemical)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z1-3')"><div class="sub-check" id="sub-z1-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z1-3">Lamarckism, Darwinism, Neo-Darwinism</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z1-4')"><div class="sub-check" id="sub-z1-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z1-4">Human evolution: Ramapithecus → Homo sapiens full chain</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z2">
+        <div class="chapter-header" onclick="toggleChapter('z2')">
+          <div class="chapter-checkbox" id="chk-z2" onclick="toggleChapterCheck(event,'z2')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Animal Diversity & Classification <span class="chapter-qs">4 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Diagnostic features from Protozoa to Chordata</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z2-1')"><div class="sub-check" id="sub-z2-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z2-1">Protozoa, Porifera, Coelenterata — diagnostic features</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z2-2')"><div class="sub-check" id="sub-z2-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z2-2">Platyhelminthes, Nematoda, Annelida</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z2-3')"><div class="sub-check" id="sub-z2-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z2-3">Arthropoda, Mollusca, Echinodermata</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z2-4')"><div class="sub-check" id="sub-z2-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z2-4">Chordata: Pisces, Amphibia, Reptilia, Aves, Mammalia — key features</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z3">
+        <div class="chapter-header" onclick="toggleChapter('z3')">
+          <div class="chapter-checkbox" id="chk-z3" onclick="toggleChapterCheck(event,'z3')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Animal Tissues & Histology <span class="chapter-qs">4 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Epithelial, Connective, Muscular, Nervous — structure, location, function</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z3-1')"><div class="sub-check" id="sub-z3-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z3-1">Epithelial tissue — types, location, function</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z3-2')"><div class="sub-check" id="sub-z3-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z3-2">Connective tissue — loose, dense, cartilage, bone, blood</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z3-3')"><div class="sub-check" id="sub-z3-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z3-3">Muscular tissue — striated, unstriated, cardiac differences</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z3-4')"><div class="sub-check" id="sub-z3-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z3-4">Nervous tissue — neuron structure, types of neurons</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z4">
+        <div class="chapter-header" onclick="toggleChapter('z4')">
+          <div class="chapter-checkbox" id="chk-z4" onclick="toggleChapterCheck(event,'z4')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Study of Selected Animals <span class="chapter-qs">6 Qs</span><span class="tag tag-a" style="font-size:10px;">A</span></div>
+            <div class="chapter-meta">Plasmodium, Pheretima (Earthworm), Rana (Frog)</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z4-1')"><div class="sub-check" id="sub-z4-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z4-1">Plasmodium: habitat, structure, life cycle stages, malaria types (falciparum vs vivax)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z4-2')"><div class="sub-check" id="sub-z4-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z4-2">Pheretima (Earthworm): morphology, body systems, physiology, economic importance</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z4-3')"><div class="sub-check" id="sub-z4-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z4-3">Rana (Frog): morphology, body systems, physiology — double circulation, skin respiration, cranial nerves</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z5">
+        <div class="chapter-header" onclick="toggleChapter('z5')">
+          <div class="chapter-checkbox" id="chk-z5" onclick="toggleChapterCheck(event,'z5')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Human Biology & Physiology <span class="chapter-qs">15 Qs ★</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">Highest Zoology chapter · 8 organ systems</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z5-1')"><div class="sub-check" id="sub-z5-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-1">Digestive System: alimentary canal, digestive glands, physiology of digestion</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-2')"><div class="sub-check" id="sub-z5-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-2">Respiratory System: organs, gas exchange/transport, regulation, respiratory disorders</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-3')"><div class="sub-check" id="sub-z5-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-3">Circulatory System: heart, cardiac cycle, heartbeat, blood groups (ABO + Rh), cardiovascular disorders</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-4')"><div class="sub-check" id="sub-z5-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-4">Excretory System: organs, urine formation (filtration → reabsorption → secretion), renal disorders</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-5')"><div class="sub-check" id="sub-z5-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-5">Nervous System: CNS, PNS, autonomic NS, nerve impulse (action potential)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-6')"><div class="sub-check" id="sub-z5-6"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-6">Sense Organs: Eye (structure + vision mechanism) + Ear (structure + hearing/balance)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-7')"><div class="sub-check" id="sub-z5-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-7">Endocrinology: all glands, hormones, target organs, disorders (diabetes, goitre, etc.)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z5-8')"><div class="sub-check" id="sub-z5-8"></div><div class="dot-a"></div><div class="sub-label" id="lbl-z5-8">Reproductive System: organs, gametogenesis, ovarian cycle, menstrual cycle</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z6">
+        <div class="chapter-header" onclick="toggleChapter('z6')">
+          <div class="chapter-checkbox" id="chk-z6" onclick="toggleChapterCheck(event,'z6')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Microbial Diseases & Immunology <span class="chapter-qs">4 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Diseases, Immunity types, Vaccines</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z6-1')"><div class="sub-check" id="sub-z6-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z6-1">Diseases: Typhoid, TB, HIV, Cholera, Influenza, Hepatitis, Candidiasis — causative agents + transmission</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z6-2')"><div class="sub-check" id="sub-z6-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z6-2">Immunity: innate vs acquired; antigens, antibodies (IgG, IgM, IgE), primary/secondary response</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z6-3')"><div class="sub-check" id="sub-z6-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-z6-3">Vaccines: live attenuated, inactivated, toxoid — examples of each type</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z7">
+        <div class="chapter-header" onclick="toggleChapter('z7')">
+          <div class="chapter-checkbox" id="chk-z7" onclick="toggleChapterCheck(event,'z7')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Medical Technology & Applied Biology <span class="chapter-qs">2 Qs</span><span class="tag tag-c" style="font-size:10px;">C</span></div>
+            <div class="chapter-meta">IVF, Transgenic animals, Applied microbiology</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z7-1')"><div class="sub-check" id="sub-z7-1"></div><div class="dot-c"></div><div class="sub-label" id="lbl-z7-1">Tissue/organ transplantation, IVF, Amniocentesis, Transgenic animals</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z7-2')"><div class="sub-check" id="sub-z7-2"></div><div class="dot-c"></div><div class="sub-label" id="lbl-z7-2">Applied microbiology: dairy/beverage microbes, sewage treatment, bio-control agents</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-z8">
+        <div class="chapter-header" onclick="toggleChapter('z8')">
+          <div class="chapter-checkbox" id="chk-z8" onclick="toggleChapterCheck(event,'z8')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Biota, Environment & Conservation <span class="chapter-qs">2 Qs</span><span class="tag tag-c" style="font-size:10px;">C</span></div>
+            <div class="chapter-meta">Nepal protected areas, IUCN, Endangered species</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('z8-1')"><div class="sub-check" id="sub-z8-1"></div><div class="dot-c"></div><div class="sub-label" id="lbl-z8-1">Animal behavior: reflex actions, taxis, migration</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z8-2')"><div class="sub-check" id="sub-z8-2"></div><div class="dot-c"></div><div class="sub-label" id="lbl-z8-2">Environmental pollution: air, water, soil, pesticides; adaptations (aquatic, terrestrial, volant)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('z8-3')"><div class="sub-check" id="sub-z8-3"></div><div class="dot-c"></div><div class="sub-label" id="lbl-z8-3">Conservation: biodiversity, protected areas, hotspots, Ramsar sites, IUCN categories, endangered species of Nepal</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOTANY -->
+  <div class="tracker-subject" id="subj-botany">
+    <div class="tracker-subj-header" onclick="toggleSubject('botany')">
+      <div class="tracker-subj-header-left">
+        <span class="subj-icon">🌿</span>
+        <div class="subj-title-area"><h3 style="color:#818cf8">Botany</h3><p>40 Questions · 20% of Paper</p></div>
+      </div>
+      <div class="subj-header-right">
+        <span class="subj-count" id="count-botany">0 / 9 chapters</span>
+        <span class="subj-pct-badge" id="badge-botany" style="background:rgba(99,102,241,0.12);color:#818cf8">0%</span>
+        <span class="chevron">▼</span>
+      </div>
+    </div>
+    <div class="subj-progress-bar"><div class="subj-progress-fill fill-b" id="subj-bar-botany" style="width:0%"></div></div>
+    <div class="tracker-body" id="body-botany">
+
+      <div class="chapter-group" id="ch-b1">
+        <div class="chapter-header" onclick="toggleChapter('b1')">
+          <div class="chapter-checkbox" id="chk-b1" onclick="toggleChapterCheck(event,'b1')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Basic Components of Life <span class="chapter-qs">2 Qs</span><span class="tag tag-c" style="font-size:10px;">C</span></div>
+            <div class="chapter-meta">Carbohydrates, Lipids, Minerals, Proteins, Enzymes</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b1-1')"><div class="sub-check" id="sub-b1-1"></div><div class="dot-c"></div><div class="sub-label" id="lbl-b1-1">Carbohydrates: structure, types (mono/di/polysaccharides), biological role</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b1-2')"><div class="sub-check" id="sub-b1-2"></div><div class="dot-c"></div><div class="sub-label" id="lbl-b1-2">Lipids and minerals: structure, types, biological role</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b1-3')"><div class="sub-check" id="sub-b1-3"></div><div class="dot-c"></div><div class="sub-label" id="lbl-b1-3">Proteins and enzymes: structure, types, biological role</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b2">
+        <div class="chapter-header" onclick="toggleChapter('b2')">
+          <div class="chapter-checkbox" id="chk-b2" onclick="toggleChapterCheck(event,'b2')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Biodiversity <span class="chapter-qs">9 Qs ★</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">Highest Botany chapter · Classification to Angiosperms · Nepal medicinal plants</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b2-1')"><div class="sub-check" id="sub-b2-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-1">Classification systems: 2-Kingdom, 5-Kingdom, 3-Domain; taxonomic hierarchies; binomial nomenclature</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-2')"><div class="sub-check" id="sub-b2-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-2">Monera & Virus: bacterial structure/types/nutrition/growth; cyanobacteria; virus structure, types, chemical composition</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-3')"><div class="sub-check" id="sub-b2-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-3">Fungi & Lichens: Phycomycetes, Ascomycetes, Basidiomycetes, Deuteromycetes; yeast and Mucor reproduction</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-4')"><div class="sub-check" id="sub-b2-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-4">Algae: Chlorophyceae, Rhodophyceae, Phaeophyceae features; Spirogyra structure and reproduction</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-5')"><div class="sub-check" id="sub-b2-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-5">Bryophytes: Hepaticopsida, Anthocerotopsida, Bryopsida features; Marchantia morphology and reproduction</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-6')"><div class="sub-check" id="sub-b2-6"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-6">Pteridophytes: characteristic features; Dryopteris morphology and reproduction</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-7')"><div class="sub-check" id="sub-b2-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-7">Gymnosperms: characteristic features; Pinus morphology and reproduction</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-8')"><div class="sub-check" id="sub-b2-8"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-8">Angiosperms: morphology of root/stem/leaf/flower/fruit; floral formulae + diagrams of Brassicaceae, Solanaceae, Fabaceae, Liliaceae</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b2-9')"><div class="sub-check" id="sub-b2-9"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b2-9">Nepal medicinal plants: Neem, Sarpagandha, Yarsagumba, Tulasi, Ginger — scientific names + uses</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b3">
+        <div class="chapter-header" onclick="toggleChapter('b3')">
+          <div class="chapter-checkbox" id="chk-b3" onclick="toggleChapterCheck(event,'b3')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Ecology & Vegetation <span class="chapter-qs">4 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Ecosystems, Biogeochemical cycles, Nepal forest types, Succession</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b3-1')"><div class="sub-check" id="sub-b3-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b3-1">Pond and forest ecosystems: structural and functional aspects, biotic interactions</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b3-2')"><div class="sub-check" id="sub-b3-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b3-2">Biogeochemical cycles: Carbon cycle, Nitrogen cycle</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b3-3')"><div class="sub-check" id="sub-b3-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b3-3">Ecological imbalances: greenhouse effect, acid rain, ozone layer depletion, climate change</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b3-4')"><div class="sub-check" id="sub-b3-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b3-4">Nepal forest types, biological invasion, ecological succession (Hydrosere and Xerosere)</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b4">
+        <div class="chapter-header" onclick="toggleChapter('b4')">
+          <div class="chapter-checkbox" id="chk-b4" onclick="toggleChapterCheck(event,'b4')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Cell Biology <span class="chapter-qs">5 Qs</span><span class="tag tag-a" style="font-size:10px;">A</span></div>
+            <div class="chapter-meta">Organelles, Cell cycle, Mitosis, Meiosis</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b4-1')"><div class="sub-check" id="sub-b4-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b4-1">Prokaryotic vs eukaryotic cells; cell theory</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b4-2')"><div class="sub-check" id="sub-b4-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b4-2">Cell organelles: cell wall, membrane, mitochondria, chloroplasts, ER, Golgi, lysosome, ribosome, nucleus, chromosomes, cilia/flagella</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b4-3')"><div class="sub-check" id="sub-b4-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b4-3">Cell cycle: G1, S, G2, M phases</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b4-4')"><div class="sub-check" id="sub-b4-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b4-4">Mitosis: phases (prophase, metaphase, anaphase, telophase), significance</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b4-5')"><div class="sub-check" id="sub-b4-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b4-5">Meiosis: phases I and II, crossing over, significance (genetic variation)</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b5">
+        <div class="chapter-header" onclick="toggleChapter('b5')">
+          <div class="chapter-checkbox" id="chk-b5" onclick="toggleChapterCheck(event,'b5')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Genetics <span class="chapter-qs">6 Qs</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">DNA/RNA, Mendel, Sex-linked inheritance, Mutations, Genetic disorders</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b5-1')"><div class="sub-check" id="sub-b5-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-1">DNA and RNA: composition, structure (double helix), functions; DNA replication mechanism</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b5-2')"><div class="sub-check" id="sub-b5-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-2">Central dogma (DNA→RNA→Protein); genetic code — codons, anticodons</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b5-3')"><div class="sub-check" id="sub-b5-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-3">Mendelian genetics: laws of inheritance, incomplete dominance, codominance</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b5-4')"><div class="sub-check" id="sub-b5-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-4">Linkage: complete and incomplete; crossing over and its significance</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b5-5')"><div class="sub-check" id="sub-b5-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-5">Sex-linked inheritance: colour blindness in humans; eye colour in Drosophila melanogaster</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b5-6')"><div class="sub-check" id="sub-b5-6"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-6">Mutation: gene mutations, chromosomal mutations; polyploidy (origin, types, significance)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b5-7')"><div class="sub-check" id="sub-b5-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b5-7">Genetic disorders: Down's, Turner's, Edward's, Klinefelter's syndromes; albinism; haemophilia</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b6">
+        <div class="chapter-header" onclick="toggleChapter('b6')">
+          <div class="chapter-checkbox" id="chk-b6" onclick="toggleChapterCheck(event,'b6')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Plant Anatomy <span class="chapter-qs">3 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Plant tissues, Vascular bundles, Monocot/Dicot T.S.</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b6-1')"><div class="sub-check" id="sub-b6-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b6-1">Plant tissue types: meristematic and permanent — classification, structure, functions</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b6-2')"><div class="sub-check" id="sub-b6-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b6-2">Types of vascular bundles: open, closed, collateral, bicollateral, concentric</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b6-3')"><div class="sub-check" id="sub-b6-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b6-3">T.S. and L.S. study of monocot and dicot: root, stem, leaf</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b7">
+        <div class="chapter-header" onclick="toggleChapter('b7')">
+          <div class="chapter-checkbox" id="chk-b7" onclick="toggleChapterCheck(event,'b7')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Plant Physiology <span class="chapter-qs">6 Qs</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">Water relations, Photosynthesis (C3/C4), Respiration, Plant growth hormones</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b7-1')"><div class="sub-check" id="sub-b7-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b7-1">Water relations: osmosis, water potential, plasmolysis, transpiration, ascent of sap, absorption, imbibition</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b7-2')"><div class="sub-check" id="sub-b7-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b7-2">Photosynthesis: pigments, Photosystem I & II, light-dependent reactions, Calvin-Benson cycle (C3)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b7-3')"><div class="sub-check" id="sub-b7-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b7-3">Hatch-Slack pathway (C4 cycle), photorespiration, factors affecting photosynthesis, bacterial photosynthesis</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b7-4')"><div class="sub-check" id="sub-b7-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b7-4">Respiration: aerobic/anaerobic types; glycolysis, Krebs cycle (TCA), ETS and oxidative phosphorylation</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b7-5')"><div class="sub-check" id="sub-b7-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-b7-5">Plant growth: auxin, gibberellin, cytokinin roles and applications; seed germination types; seed dormancy</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b8">
+        <div class="chapter-header" onclick="toggleChapter('b8')">
+          <div class="chapter-checkbox" id="chk-b8" onclick="toggleChapterCheck(event,'b8')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Developmental Botany <span class="chapter-qs">2 Qs</span><span class="tag tag-c" style="font-size:10px;">C</span></div>
+            <div class="chapter-meta">Sporogenesis, Pollination, Fertilization, Embryo structure</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b8-1')"><div class="sub-check" id="sub-b8-1"></div><div class="dot-c"></div><div class="sub-label" id="lbl-b8-1">Asexual reproduction; sporogenesis and gametogenesis in angiosperms</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b8-2')"><div class="sub-check" id="sub-b8-2"></div><div class="dot-c"></div><div class="sub-label" id="lbl-b8-2">Pollination types, fertilization; monocot and dicot embryo structure; endosperm types and functions</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-b9">
+        <div class="chapter-header" onclick="toggleChapter('b9')">
+          <div class="chapter-checkbox" id="chk-b9" onclick="toggleChapterCheck(event,'b9')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Applied Botany <span class="chapter-qs">3 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Plant tissue culture, Genetic engineering, Biofertilizers</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('b9-1')"><div class="sub-check" id="sub-b9-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b9-1">Plant tissue culture: introduction, concept, types and application</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b9-2')"><div class="sub-check" id="sub-b9-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b9-2">Genetic engineering: concept and application in plants</div></div>
+          <div class="subtopic-item" onclick="toggleSub('b9-3')"><div class="sub-check" id="sub-b9-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-b9-3">Biofertilizers, green manures, plant breeding, bio-engineering, food safety and security</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CHEMISTRY -->
+  <div class="tracker-subject" id="subj-chemistry">
+    <div class="tracker-subj-header" onclick="toggleSubject('chemistry')">
+      <div class="tracker-subj-header-left">
+        <span class="subj-icon">⚗️</span>
+        <div class="subj-title-area"><h3 style="color:#f59e0b">Chemistry</h3><p>50 Questions · 25% of Paper</p></div>
+      </div>
+      <div class="subj-header-right">
+        <span class="subj-count" id="count-chemistry">0 / 5 units</span>
+        <span class="subj-pct-badge" id="badge-chemistry" style="background:rgba(245,158,11,0.12);color:#f59e0b">0%</span>
+        <span class="chevron">▼</span>
+      </div>
+    </div>
+    <div class="subj-progress-bar"><div class="subj-progress-fill fill-c" id="subj-bar-chemistry" style="width:0%"></div></div>
+    <div class="tracker-body" id="body-chemistry">
+
+      <div class="chapter-group" id="ch-c1">
+        <div class="chapter-header" onclick="toggleChapter('c1')">
+          <div class="chapter-checkbox" id="chk-c1" onclick="toggleChapterCheck(event,'c1')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Physical Chemistry <span class="chapter-qs">17 Qs ★</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">12 subtopics · Stoichiometry to Nuclear Chemistry</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('c1-1')"><div class="sub-check" id="sub-c1-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-1">Basic Concepts + Stoichiometry: mole concept, limiting reactants, % yield, Avogadro's law, Dalton's atomic theory</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-2')"><div class="sub-check" id="sub-c1-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-2">Atomic Structure: Rutherford, Bohr model, de Broglie wave equation, Heisenberg uncertainty, quantum numbers, Aufbau/Pauli/Hund rules, electronic configuration</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-3')"><div class="sub-check" id="sub-c1-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-3">Periodic Table: modern periodic law, s/p/d/f blocks, periodic trends (atomic size, ionic size, ionization energy, electronegativity, electron affinity, metallic character)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-4')"><div class="sub-check" id="sub-c1-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-4">Chemical Bonding: ionic, covalent, coordinate bonds; Lewis structures; VSEPR theory + molecular geometry; hybridization; dipole moment; hydrogen bonding; Van der Waals forces</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-5')"><div class="sub-check" id="sub-c1-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-5">Redox Reactions: oxidation numbers, balancing by oxidation number method and ion-electron method</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-6')"><div class="sub-check" id="sub-c1-6"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-6">States of Matter: gas laws, ideal/real gas (kinetic theory); vapour pressure, surface tension, viscosity; crystalline/amorphous solids, unit cell, 7 crystal systems, 14 Bravais lattices</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-7')"><div class="sub-check" id="sub-c1-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-7">Chemical Equilibrium: law of mass action, Kc and Kp, reaction quotient, Le Chatelier's principle and applications</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-8')"><div class="sub-check" id="sub-c1-8"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-8">Volumetric Analysis: normality, molarity, molality, mole fraction, ppm, ppb, law of equivalence, primary/secondary standards</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-9')"><div class="sub-check" id="sub-c1-9"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-9">Ionic Equilibrium: Arrhenius/Bronsted-Lowry/Lewis acids-bases; Ostwald's dilution law; pH, pOH, pKa, pKb; buffer solutions; Ksp; common ion effect; salt hydrolysis</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-10')"><div class="sub-check" id="sub-c1-10"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-10">Chemical Kinetics: rate expression, rate constant and units, order/molecularity, zero/first order integrated equations, half-life, activation energy, catalysis (homo/hetero/enzyme)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-11')"><div class="sub-check" id="sub-c1-11"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-11">Electrochemistry: electrolysis, standard electrode potential, SHE, calomel electrode, electrochemical series, Galvanic cell EMF, commercial cells, primary/secondary cells, fuel cells</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-12')"><div class="sub-check" id="sub-c1-12"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c1-12">Chemical Thermodynamics: 1st and 2nd laws; enthalpy of reaction/formation/combustion/neutralization; Hess's law; Laplace law; entropy; Gibbs free energy; spontaneity prediction</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c1-13')"><div class="sub-check" id="sub-c1-13"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c1-13">Nuclear Chemistry: radioactivity, types of nuclear reactions, radioisotopes, radio-carbon dating</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-c2">
+        <div class="chapter-header" onclick="toggleChapter('c2')">
+          <div class="chapter-checkbox" id="chk-c2" onclick="toggleChapterCheck(event,'c2')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Inorganic Chemistry <span class="chapter-qs">10 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Non-metals, Metals, Metallurgy, Bio-inorganic Chemistry</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('c2-1')"><div class="sub-check" id="sub-c2-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c2-1">Non-metals: hydrogen isotopes, ozone (prep + depletion), ammonia, phosphine, nitric acid, halogens (Cl/Br/I), HCl/HBr/HI, sulphur compounds, carbon allotropes, carbon monoxide</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c2-2')"><div class="sub-check" id="sub-c2-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c2-2">Metallurgical principles: hydrometallurgy, pyrometallurgy, electrometallurgy; ore concentration, calcination, roasting, smelting, bessemerization, aluminothermite</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c2-3')"><div class="sub-check" id="sub-c2-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c2-3">Alkali/alkaline earth metals: Na, NaOH, Na₂CO₃ properties; transition metals (3d series); complex ion shapes (tetrahedral, square planar, octahedral); crystal field theory</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c2-4')"><div class="sub-check" id="sub-c2-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c2-4">Extraction + properties: Cu, Zn, Hg, Ag, Fe; steel manufacture (basic oxygen + open hearth); blue/white vitriol, calomel, corrosive sublimate; iron corrosion</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c2-5')"><div class="sub-check" id="sub-c2-5"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c2-5">Bio-inorganic Chemistry: macro/micro nutrients; biological roles of Na⁺, K⁺, Mg²⁺, Zn²⁺, Cu²⁺, Co²⁺, Fe²⁺/³⁺, Ca²⁺; sodium-potassium pump; metal toxicity (Fe, As, Hg, Pb, Cd)</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-c3">
+        <div class="chapter-header" onclick="toggleChapter('c3')">
+          <div class="chapter-checkbox" id="chk-c3" onclick="toggleChapterCheck(event,'c3')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Organic Chemistry <span class="chapter-qs">17 Qs ★</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">10 functional group families · Reactions, mechanisms, properties</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('c3-1')"><div class="sub-check" id="sub-c3-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-1">General Organic Chemistry: IUPAC nomenclature, isomerism, homologous series, inductive/resonance effects, electrophiles, nucleophiles, carbocations, carbanions, free radicals</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-2')"><div class="sub-check" id="sub-c3-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-2">Hydrocarbons: alkane/alkene/alkyne preparation + reactions; addition reactions; cracking, pyrolysis, octane number, cetane number</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-3')"><div class="sub-check" id="sub-c3-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-3">Aromatic Hydrocarbons: aromaticity, resonance; benzene preparation + electrophilic substitution reactions</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-4')"><div class="sub-check" id="sub-c3-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-4">Haloalkanes & Haloarenes: SN1 vs SN2 mechanisms (conditions + products); chloroform and chlorobenzene prep + properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-5')"><div class="sub-check" id="sub-c3-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-5">Alcohols & Phenols: monohydric alcohol preparation + reactions; oxo-process, hydroboration-oxidation, fermentation; types of ethanol; phenol prep + properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-6')"><div class="sub-check" id="sub-c3-6"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c3-6">Ethers: Williamson's synthesis; diethyl ether chemical properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-7')"><div class="sub-check" id="sub-c3-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-7">Aldehydes & Ketones: preparation + chemical properties of aliphatic carbonyl compounds; benzaldehyde prep + properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-8')"><div class="sub-check" id="sub-c3-8"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-8">Carboxylic Acids & Derivatives: monocarboxylic acid reactions; acid halide, anhydride, amide, ester — preparation, properties and relative reactivity</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-9')"><div class="sub-check" id="sub-c3-9"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c3-9">Nitro compounds: nitroalkane + nitrobenzene preparation + chemical properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-10')"><div class="sub-check" id="sub-c3-10"></div><div class="dot-a"></div><div class="sub-label" id="lbl-c3-10">Amines: primary amine preparation; basicity comparison; Hoffmann's separation method; aniline preparation + properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c3-11')"><div class="sub-check" id="sub-c3-11"></div><div class="dot-b"></div><div class="sub-label" id="lbl-c3-11">Organometallic: Grignard reagent preparation + reactions; organo-lithium, organocopper, organocadmium examples</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-c4">
+        <div class="chapter-header" onclick="toggleChapter('c4')">
+          <div class="chapter-checkbox" id="chk-c4" onclick="toggleChapterCheck(event,'c4')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Applied Chemistry <span class="chapter-qs">3 Qs</span><span class="tag tag-c" style="font-size:10px;">C</span></div>
+            <div class="chapter-meta">Manufacturing processes, Industrial applications</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('c4-1')"><div class="sub-check" id="sub-c4-1"></div><div class="dot-c"></div><div class="sub-label" id="lbl-c4-1">Manufacturing: Ostwald's process (HNO₃), Haber's process (NH₃), Contact process (H₂SO₄), Diaphragm cell (NaOH), Solvay process (Na₂CO₃), urea (ammonium carbamate)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c4-2')"><div class="sub-check" id="sub-c4-2"></div><div class="dot-c"></div><div class="sub-label" id="lbl-c4-2">Applications of non-metals, metals and important compounds (key uses from syllabus list)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c4-3')"><div class="sub-check" id="sub-c4-3"></div><div class="dot-c"></div><div class="sub-label" id="lbl-c4-3">Chemistry in service to mankind: polymers, dyes, drugs, pesticides, fertilizers; colloid applications; radioisotope medical/industrial uses</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-c5">
+        <div class="chapter-header" onclick="toggleChapter('c5')">
+          <div class="chapter-checkbox" id="chk-c5" onclick="toggleChapterCheck(event,'c5')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Analytical Chemistry <span class="chapter-qs">3 Qs</span><span class="tag tag-c" style="font-size:10px;">C</span></div>
+            <div class="chapter-meta">Chemical tests, Separation techniques, Titration types</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('c5-1')"><div class="sub-check" id="sub-c5-1"></div><div class="dot-c"></div><div class="sub-label" id="lbl-c5-1">Chemical tests: acid/basic radical tests; unsaturation + functional group tests; Lassaigne's test; biomolecule tests (fat, protein, carbohydrate)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c5-2')"><div class="sub-check" id="sub-c5-2"></div><div class="dot-c"></div><div class="sub-label" id="lbl-c5-2">Separation techniques: filtration, sublimation, evaporation, crystallization, distillation, paper chromatography, atmolysis</div></div>
+          <div class="subtopic-item" onclick="toggleSub('c5-3')"><div class="sub-check" id="sub-c5-3"></div><div class="dot-c"></div><div class="sub-label" id="lbl-c5-3">Titration types: acid-base, redox (permanganometric, iodometric, iodimetric), complexometric; indicator selection for acid-base titration</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PHYSICS -->
+  <div class="tracker-subject" id="subj-physics">
+    <div class="tracker-subj-header" onclick="toggleSubject('physics')">
+      <div class="tracker-subj-header-left">
+        <span class="subj-icon">⚡</span>
+        <div class="subj-title-area"><h3 style="color:#ef4444">Physics</h3><p>50 Questions · 25% of Paper</p></div>
+      </div>
+      <div class="subj-header-right">
+        <span class="subj-count" id="count-physics">0 / 6 units</span>
+        <span class="subj-pct-badge" id="badge-physics" style="background:rgba(239,68,68,0.12);color:#ef4444">0%</span>
+        <span class="chevron">▼</span>
+      </div>
+    </div>
+    <div class="subj-progress-bar"><div class="subj-progress-fill fill-p" id="subj-bar-physics" style="width:0%"></div></div>
+    <div class="tracker-body" id="body-physics">
+
+      <div class="chapter-group" id="ch-p1">
+        <div class="chapter-header" onclick="toggleChapter('p1')">
+          <div class="chapter-checkbox" id="chk-p1" onclick="toggleChapterCheck(event,'p1')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Mechanics <span class="chapter-qs">10 Qs</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">Vectors, Kinematics, Dynamics, Rotational, Fluids, SHM, Gravity, Elasticity</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('p1-1')"><div class="sub-check" id="sub-p1-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p1-1">Physical quantities: vectors/scalars, dimensional analysis, significant figures, precision/accuracy</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-2')"><div class="sub-check" id="sub-p1-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p1-2">Kinematics: linear motion equations, projectile motion (with/without air resistance), graphical treatment</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-3')"><div class="sub-check" id="sub-p1-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p1-3">Dynamics: Newton's laws, impulse-momentum, work-energy theorem, solid friction, collisions (elastic/inelastic)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-4')"><div class="sub-check" id="sub-p1-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p1-4">Rotational dynamics: moment of inertia (rigid uniform rod), radius of gyration, torque, rotational work/energy/power</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-5')"><div class="sub-check" id="sub-p1-5"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p1-5">Fluid statics/dynamics: pressure, surface tension + capillarity, Bernoulli's principle, viscosity, Stokes' law, Poiseuille's law</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-6')"><div class="sub-check" id="sub-p1-6"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p1-6">Circular and SHM: centripetal force, horizontal/vertical circle motion; SHM equations (x=Asinωt, velocity, acceleration, energy); forced oscillations</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-7')"><div class="sub-check" id="sub-p1-7"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p1-7">Gravity: gravitational force, field strength, potential energy, orbital velocity, escape velocity</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p1-8')"><div class="sub-check" id="sub-p1-8"></div><div class="dot-c"></div><div class="sub-label" id="lbl-p1-8">Elasticity: stress, strain, Young's modulus, bulk modulus, shear modulus, Poisson's ratio, energy density</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-p2">
+        <div class="chapter-header" onclick="toggleChapter('p2')">
+          <div class="chapter-checkbox" id="chk-p2" onclick="toggleChapterCheck(event,'p2')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Heat & Thermodynamics <span class="chapter-qs">7 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Gas laws, Thermodynamic processes, Heat engines, Entropy</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('p2-1')"><div class="sub-check" id="sub-p2-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p2-1">Thermal energy, heat, temperature; modes of heat transfer; zeroth law; Stefan-Boltzmann law; thermometer types (liquid-in-glass, resistance, radiation)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p2-2')"><div class="sub-check" id="sub-p2-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p2-2">Thermal expansion: linear, cubical, superficial, real and apparent expansions; applications</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p2-3')"><div class="sub-check" id="sub-p2-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p2-3">Quantity of heat: specific heat capacity, latent heats (fusion, vaporization), triple point</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p2-4')"><div class="sub-check" id="sub-p2-4"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p2-4">Ideal gas: kinetic theory, molecular properties, P/V/T/rms speed/energy calculations</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p2-5')"><div class="sub-check" id="sub-p2-5"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p2-5">First law of thermodynamics: thermodynamic processes — adiabatic, isothermal, isochoric, isobaric</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p2-6')"><div class="sub-check" id="sub-p2-6"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p2-6">Second law: heat engines (Carnot cycle + efficiency formula), refrigerator COP, entropy concept</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-p3">
+        <div class="chapter-header" onclick="toggleChapter('p3')">
+          <div class="chapter-checkbox" id="chk-p3" onclick="toggleChapterCheck(event,'p3')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Waves & Optics <span class="chapter-qs">8 Qs</span><span class="tag tag-a" style="font-size:10px;">A</span></div>
+            <div class="chapter-meta">Wave motion, Doppler, Reflection/Refraction, Interference, Diffraction, Polarization</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('p3-1')"><div class="sub-check" id="sub-p3-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p3-1">Wave motion: progressive wave equations; velocity of sound in solid/liquid/gas; factors affecting velocity</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p3-2')"><div class="sub-check" id="sub-p3-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p3-2">Stationary waves: harmonics and overtones in open/closed pipes and strings</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p3-3')"><div class="sub-check" id="sub-p3-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p3-3">Acoustic phenomena: intensity, loudness, pitch, quality; Doppler effect formula for all cases (source/observer moving)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p3-4')"><div class="sub-check" id="sub-p3-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p3-4">Reflection/Refraction/Dispersion: curved mirror formulas, Snell's law, lens formula; chromatic aberration, achromatism</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p3-5')"><div class="sub-check" id="sub-p3-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p3-5">Interference: conditions, Young's double slit — fringe width β=λD/d, path difference, constructive/destructive conditions</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p3-6')"><div class="sub-check" id="sub-p3-6"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p3-6">Diffraction: single slit, diffraction grating, resolving power of optical instruments; polarization + Brewster's law</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-p4">
+        <div class="chapter-header" onclick="toggleChapter('p4')">
+          <div class="chapter-checkbox" id="chk-p4" onclick="toggleChapterCheck(event,'p4')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Current Electricity & Magnetism <span class="chapter-qs">9 Qs</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">Ohm's Law, Kirchhoff's Laws, EMI, AC Circuits, Magnetic Properties</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('p4-1')"><div class="sub-check" id="sub-p4-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p4-1">Electrical quantities: Ohm's law, Joule's law, resistance, emf, pd, energy and power calculations</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p4-2')"><div class="sub-check" id="sub-p4-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p4-2">Circuits: Kirchhoff's laws (KVL + KCL), resistor combinations, Wheatstone bridge, meter bridge, potentiometer, galvanometer as ammeter/voltmeter</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p4-3')"><div class="sub-check" id="sub-p4-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p4-3">Thermoelectric effect: Seebeck effect, Peltier effect, thermocouple calculations</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p4-4')"><div class="sub-check" id="sub-p4-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p4-4">AC circuits: peak vs rms values, impedance (LRC), power factor, Q-factor, phase relationships; diode bridge rectification</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p4-5')"><div class="sub-check" id="sub-p4-5"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p4-5">Magnetic materials: domains, relative permeability, susceptibility, hysteresis loop; dia/para/ferromagnetic properties</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p4-6')"><div class="sub-check" id="sub-p4-6"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p4-6">Magnetic field: B-field around straight conductor/circular coil/solenoid (Biot-Savart); force on moving charge and current-carrying conductor; Hall effect</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p4-7')"><div class="sub-check" id="sub-p4-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p4-7">Electromagnetic induction: Faraday's law, Lenz's law; AC generator; transformer (step-up/step-down); eddy currents; self/mutual inductance; energy in inductor</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-p5">
+        <div class="chapter-header" onclick="toggleChapter('p5')">
+          <div class="chapter-checkbox" id="chk-p5" onclick="toggleChapterCheck(event,'p5')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Electrostatics & Capacitors <span class="chapter-qs">4 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Coulomb's Law, Gauss's Law, Electric field/potential, Capacitors</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('p5-1')"><div class="sub-check" id="sub-p5-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p5-1">Electric charge: Coulomb's law applications, electrostatic induction, electric field due to point charges</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p5-2')"><div class="sub-check" id="sub-p5-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p5-2">Electric field strength, potential, potential energy; Gauss's law and its applications</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p5-3')"><div class="sub-check" id="sub-p5-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p5-3">Capacitors: parallel plate capacitor formula; series/parallel combinations; energy stored (½CV²); dielectric effect</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-p6">
+        <div class="chapter-header" onclick="toggleChapter('p6')">
+          <div class="chapter-checkbox" id="chk-p6" onclick="toggleChapterCheck(event,'p6')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Modern Physics <span class="chapter-qs">12 Qs ★</span><span class="tag tag-a" style="font-size:10px;">A — MUST</span></div>
+            <div class="chapter-meta">Nuclear, Photoelectric, Bohr, X-rays, Radioactivity, Semiconductors, Particle Physics</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('p6-1')"><div class="sub-check" id="sub-p6-1"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-1">Nuclear physics: nucleus properties (charge, size, mass, density); mass defect; binding energy per nucleon; Einstein's E=mc²; nuclear fission and fusion</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-2')"><div class="sub-check" id="sub-p6-2"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-2">Electron: motion in electric/magnetic fields; Millikan's oil drop experiment (charge of electron); J.J. Thomson's e/m experiment</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-3')"><div class="sub-check" id="sub-p6-3"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-3">Photoelectric effect: work function, threshold frequency, stopping potential; Einstein's photoelectric equation (KE=hf−φ)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-4')"><div class="sub-check" id="sub-p6-4"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-4">Bohr's theory: hydrogen atom energy levels (En=−13.6/n² eV); spectral series (Lyman, Balmer, Paschen, Brackett, Pfund)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-5')"><div class="sub-check" id="sub-p6-5"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-5">Wave-particle duality: de Broglie wavelength (λ=h/mv); Heisenberg uncertainty principle (Δx·Δp≥h/4π)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-6')"><div class="sub-check" id="sub-p6-6"></div><div class="dot-b"></div><div class="sub-label" id="lbl-p6-6">X-rays: production, properties, uses; Bragg's law (2d sinθ=nλ) and crystal diffraction applications</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-7')"><div class="sub-check" id="sub-p6-7"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-7">Radioactivity: laws, units (Bq, Ci); α/β/γ properties; half-life and mean life formulas + calculations; carbon dating; medical uses and health hazards</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-8')"><div class="sub-check" id="sub-p6-8"></div><div class="dot-a"></div><div class="sub-label" id="lbl-p6-8">Semiconductors: energy bands (metal/semiconductor/insulator); intrinsic/extrinsic types; p-n diode biasing + rectification; logic gates truth tables (AND, OR, NOT, NOR, NAND)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('p6-9')"><div class="sub-check" id="sub-p6-9"></div><div class="dot-c"></div><div class="sub-label" id="lbl-p6-9">Particle physics: particles/antiparticles, leptons, quarks, Higgs boson; nanotechnology; Big Bang theory; Hubble law</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MAT -->
+  <div class="tracker-subject" id="subj-mat">
+    <div class="tracker-subj-header" onclick="toggleSubject('mat')">
+      <div class="tracker-subj-header-left">
+        <span class="subj-icon">🧠</span>
+        <div class="subj-title-area"><h3 style="color:#94a3b8">Mental Agility Test (MAT)</h3><p>20 Questions · 10% of Paper · 5 Qs per type</p></div>
+      </div>
+      <div class="subj-header-right">
+        <span class="subj-count" id="count-mat">0 / 4 types</span>
+        <span class="subj-pct-badge" id="badge-mat" style="background:rgba(100,116,139,0.12);color:#94a3b8">0%</span>
+        <span class="chevron">▼</span>
+      </div>
+    </div>
+    <div class="subj-progress-bar"><div class="subj-progress-fill fill-m" id="subj-bar-mat" style="width:0%"></div></div>
+    <div class="tracker-body" id="body-mat">
+
+      <div class="chapter-group" id="ch-m1">
+        <div class="chapter-header" onclick="toggleChapter('m1')">
+          <div class="chapter-checkbox" id="chk-m1" onclick="toggleChapterCheck(event,'m1')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Verbal Reasoning <span class="chapter-qs">5 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Direction sense, blood relations, seating arrangement, analogy</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('m1-1')"><div class="sub-check" id="sub-m1-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m1-1">Direction sense: N/S/E/W movement + distance calculation (like CEE sample Q: Rita goes 30km North...)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m1-2')"><div class="sub-check" id="sub-m1-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m1-2">Blood relations + seating arrangement problems</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m1-3')"><div class="sub-check" id="sub-m1-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m1-3">Analogy, odd-one-out, word series completion</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-m2">
+        <div class="chapter-header" onclick="toggleChapter('m2')">
+          <div class="chapter-checkbox" id="chk-m2" onclick="toggleChapterCheck(event,'m2')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Numerical Reasoning <span class="chapter-qs">5 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Number series, percentage, profit/loss, area/volume calculations</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('m2-1')"><div class="sub-check" id="sub-m2-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m2-1">Number series and pattern completion (arithmetic, geometric, mixed)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m2-2')"><div class="sub-check" id="sub-m2-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m2-2">Percentage and area problems (like sample Q: length+15%, breadth+25% → % increase in area)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m2-3')"><div class="sub-check" id="sub-m2-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m2-3">Profit/loss, simple interest, ratio/proportion, time-work problems</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-m3">
+        <div class="chapter-header" onclick="toggleChapter('m3')">
+          <div class="chapter-checkbox" id="chk-m3" onclick="toggleChapterCheck(event,'m3')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Logical Sequencing <span class="chapter-qs">5 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">Number/letter sequences, pattern finding</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('m3-1')"><div class="sub-check" id="sub-m3-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m3-1">Number sequences — arithmetic/geometric/decreasing patterns (like sample: 53,53,40,40,27,27...)</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m3-2')"><div class="sub-check" id="sub-m3-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m3-2">Letter and alpha-numeric sequences, coding-decoding</div></div>
+        </div>
+      </div>
+
+      <div class="chapter-group" id="ch-m4">
+        <div class="chapter-header" onclick="toggleChapter('m4')">
+          <div class="chapter-checkbox" id="chk-m4" onclick="toggleChapterCheck(event,'m4')"></div>
+          <div class="chapter-info">
+            <div class="chapter-name">Spatial / Abstract Reasoning <span class="chapter-qs">5 Qs</span><span class="tag tag-b" style="font-size:10px;">B</span></div>
+            <div class="chapter-meta">3D nets, mirror images, visual pattern matrices</div>
+          </div><span class="chapter-expand-icon">▶</span>
+        </div>
+        <div class="subtopics">
+          <div class="subtopic-item" onclick="toggleSub('m4-1')"><div class="sub-check" id="sub-m4-1"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m4-1">3D shapes from 2D nets — identify correct 3D shape from given net</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m4-2')"><div class="sub-check" id="sub-m4-2"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m4-2">Abstract pattern sequences — find missing piece in 3×3 matrix</div></div>
+          <div class="subtopic-item" onclick="toggleSub('m4-3')"><div class="sub-check" id="sub-m4-3"></div><div class="dot-b"></div><div class="sub-label" id="lbl-m4-3">Mirror images, water reflection, paper folding and punching</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- /tracker-container -->
+
+<div class="footer">
+  <p>CEE MBBS Strategic Preparation Plan · Based on MEC Syllabus (2020, revised April 2026)</p>
+  <p style="margin-top:6px;font-size:11px;">All weightages sourced directly from the official MEC syllabus document · Group I: MBBS/BDS/BSc Nursing</p>
+</div>
+
+<script>
+const SUBJECTS = {
+  zoology:   { chapters: ['z1','z2','z3','z4','z5','z6','z7','z8'], total: 8 },
+  botany:    { chapters: ['b1','b2','b3','b4','b5','b6','b7','b8','b9'], total: 9 },
+  chemistry: { chapters: ['c1','c2','c3','c4','c5'], total: 5 },
+  physics:   { chapters: ['p1','p2','p3','p4','p5','p6'], total: 6 },
+  mat:       { chapters: ['m1','m2','m3','m4'], total: 4 }
+};
+
+const CHAPTER_SUBS = {
+  z1:['z1-1','z1-2','z1-3','z1-4'],
+  z2:['z2-1','z2-2','z2-3','z2-4'],
+  z3:['z3-1','z3-2','z3-3','z3-4'],
+  z4:['z4-1','z4-2','z4-3'],
+  z5:['z5-1','z5-2','z5-3','z5-4','z5-5','z5-6','z5-7','z5-8'],
+  z6:['z6-1','z6-2','z6-3'],
+  z7:['z7-1','z7-2'],
+  z8:['z8-1','z8-2','z8-3'],
+  b1:['b1-1','b1-2','b1-3'],
+  b2:['b2-1','b2-2','b2-3','b2-4','b2-5','b2-6','b2-7','b2-8','b2-9'],
+  b3:['b3-1','b3-2','b3-3','b3-4'],
+  b4:['b4-1','b4-2','b4-3','b4-4','b4-5'],
+  b5:['b5-1','b5-2','b5-3','b5-4','b5-5','b5-6','b5-7'],
+  b6:['b6-1','b6-2','b6-3'],
+  b7:['b7-1','b7-2','b7-3','b7-4','b7-5'],
+  b8:['b8-1','b8-2'],
+  b9:['b9-1','b9-2','b9-3'],
+  c1:['c1-1','c1-2','c1-3','c1-4','c1-5','c1-6','c1-7','c1-8','c1-9','c1-10','c1-11','c1-12','c1-13'],
+  c2:['c2-1','c2-2','c2-3','c2-4','c2-5'],
+  c3:['c3-1','c3-2','c3-3','c3-4','c3-5','c3-6','c3-7','c3-8','c3-9','c3-10','c3-11'],
+  c4:['c4-1','c4-2','c4-3'],
+  c5:['c5-1','c5-2','c5-3'],
+  p1:['p1-1','p1-2','p1-3','p1-4','p1-5','p1-6','p1-7','p1-8'],
+  p2:['p2-1','p2-2','p2-3','p2-4','p2-5','p2-6'],
+  p3:['p3-1','p3-2','p3-3','p3-4','p3-5','p3-6'],
+  p4:['p4-1','p4-2','p4-3','p4-4','p4-5','p4-6','p4-7'],
+  p5:['p5-1','p5-2','p5-3'],
+  p6:['p6-1','p6-2','p6-3','p6-4','p6-5','p6-6','p6-7','p6-8','p6-9'],
+  m1:['m1-1','m1-2','m1-3'],
+  m2:['m2-1','m2-2','m2-3'],
+  m3:['m3-1','m3-2'],
+  m4:['m4-1','m4-2','m4-3']
+};
+
+const STORE_KEY = 'cee_tracker_v4';
+
+function loadState() {
+  try { const r = localStorage.getItem(STORE_KEY); return r ? JSON.parse(r) : {}; }
+  catch(e) { return {}; }
+}
+function saveState(s) {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(s)); } catch(e) {}
+}
+
+let state = loadState();
+
+function toggleSub(id) {
+  state[id] = !state[id];
+  saveState(state);
+  renderSub(id);
+  for (const [ch, subs] of Object.entries(CHAPTER_SUBS)) {
+    if (subs.includes(id)) { updateChapterState(ch); break; }
+  }
+}
+
+function renderSub(id) {
+  const check = document.getElementById('sub-'+id);
+  const lbl   = document.getElementById('lbl-'+id);
+  if (!check || !lbl) return;
+  if (state[id]) {
+    check.classList.add('checked'); check.innerHTML = '✓'; lbl.classList.add('done');
+  } else {
+    check.classList.remove('checked'); check.innerHTML = ''; lbl.classList.remove('done');
+  }
+}
+
+function toggleChapterCheck(e, chId) {
+  e.stopPropagation();
+  const subs = CHAPTER_SUBS[chId] || [];
+  const allDone = subs.every(s => state[s]);
+  subs.forEach(s => { state[s] = !allDone; });
+  saveState(state);
+  subs.forEach(s => renderSub(s));
+  updateChapterState(chId);
+}
+
+function updateChapterState(chId) {
+  const subs = CHAPTER_SUBS[chId] || [];
+  const done = subs.filter(s => state[s]).length;
+  const chkEl = document.getElementById('chk-'+chId);
+  if (!chkEl) return;
+  const nameEl = chkEl.nextElementSibling ? chkEl.nextElementSibling.querySelector('.chapter-name') : null;
+  if (done === subs.length && subs.length > 0) {
+    chkEl.classList.add('checked'); chkEl.classList.remove('partial'); chkEl.innerHTML = '✓';
+    if (nameEl) nameEl.classList.add('chapter-done');
+  } else if (done > 0) {
+    chkEl.classList.remove('checked'); chkEl.classList.add('partial'); chkEl.innerHTML = '▪';
+    if (nameEl) nameEl.classList.remove('chapter-done');
+  } else {
+    chkEl.classList.remove('checked','partial'); chkEl.innerHTML = '';
+    if (nameEl) nameEl.classList.remove('chapter-done');
+  }
+  const subj = findSubjectForChapter(chId);
+  if (subj) updateSubjectProgress(subj);
+}
+
+function findSubjectForChapter(chId) {
+  for (const [subj, data] of Object.entries(SUBJECTS)) {
+    if (data.chapters.includes(chId)) return subj;
+  }
+  return null;
+}
+
+function updateSubjectProgress(subjId) {
+  const data = SUBJECTS[subjId];
+  let doneCh = 0, doneSubs = 0, totalSubs = 0;
+  data.chapters.forEach(chId => {
+    const subs = CHAPTER_SUBS[chId] || [];
+    totalSubs += subs.length;
+    const dc = subs.filter(s => state[s]).length;
+    doneSubs += dc;
+    if (dc === subs.length && subs.length > 0) doneCh++;
+  });
+  const pct = totalSubs > 0 ? Math.round((doneSubs / totalSubs) * 100) : 0;
+  const pctEl   = document.getElementById('pct-'+subjId);
+  const barEl   = document.getElementById('bar-'+subjId);
+  const countEl = document.getElementById('count-'+subjId);
+  const badgeEl = document.getElementById('badge-'+subjId);
+  const subjBar = document.getElementById('subj-bar-'+subjId);
+  if (pctEl) pctEl.textContent = pct + '%';
+  if (barEl) barEl.style.width = pct + '%';
+  if (countEl) countEl.textContent = doneCh + ' / ' + data.total + ' chapters';
+  if (badgeEl) badgeEl.textContent = pct + '%';
+  if (subjBar) subjBar.style.width = pct + '%';
+  updateOverall();
+}
+
+function updateOverall() {
+  let totalSubs = 0, doneSubs = 0;
+  for (const data of Object.values(SUBJECTS)) {
+    data.chapters.forEach(chId => {
+      const subs = CHAPTER_SUBS[chId] || [];
+      totalSubs += subs.length;
+      doneSubs += subs.filter(s => state[s]).length;
+    });
+  }
+  const pct = totalSubs > 0 ? Math.round((doneSubs / totalSubs) * 100) : 0;
+  const op = document.getElementById('overall-pct');
+  const ob = document.getElementById('overall-bar');
+  const od = document.getElementById('overall-done');
+  const ol = document.getElementById('overall-left');
+  if (op) op.textContent = pct + '%';
+  if (ob) ob.style.width = pct + '%';
+  if (od) od.textContent = doneSubs + ' subtopics done';
+  if (ol) ol.textContent = (totalSubs - doneSubs) + ' remaining';
+  const banner = document.getElementById('completion-banner');
+  if (banner) banner.style.display = (pct === 100) ? 'block' : 'none';
+}
+
+function toggleChapter(chId) {
+  const el = document.getElementById('ch-'+chId);
+  if (el) el.classList.toggle('open');
+}
+
+function toggleSubject(subjId) {
+  const body = document.getElementById('body-'+subjId);
+  const subj = document.getElementById('subj-'+subjId);
+  if (!body) return;
+  const isHidden = body.classList.toggle('hidden');
+  if (subj) subj.classList.toggle('collapsed', isHidden);
+}
+
+function expandAll() {
+  Object.keys(SUBJECTS).forEach(s => {
+    const body = document.getElementById('body-'+s);
+    const subj = document.getElementById('subj-'+s);
+    if (body) { body.classList.remove('hidden'); }
+    if (subj) { subj.classList.remove('collapsed'); }
+  });
+}
+
+function collapseAll() {
+  Object.keys(SUBJECTS).forEach(s => {
+    const body = document.getElementById('body-'+s);
+    const subj = document.getElementById('subj-'+s);
+    if (body) { body.classList.add('hidden'); }
+    if (subj) { subj.classList.add('collapsed'); }
+  });
+}
+
+function filterTopics(mode, btn) {
+  document.querySelectorAll('.ctrl-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  for (const data of Object.values(SUBJECTS)) {
+    data.chapters.forEach(chId => {
+      const subs = CHAPTER_SUBS[chId] || [];
+      const done = subs.length > 0 && subs.every(s => state[s]);
+      const el = document.getElementById('ch-'+chId);
+      if (!el) return;
+      if (mode === 'all') el.style.display = '';
+      else if (mode === 'done') el.style.display = done ? '' : 'none';
+      else if (mode === 'pending') el.style.display = !done ? '' : 'none';
+    });
+  }
+}
+
+function resetAll() {
+  if (!confirm('Reset ALL progress? This cannot be undone.')) return;
+  state = {};
+  saveState(state);
+  initRender();
+}
+
+function initRender() {
+  for (const subs of Object.values(CHAPTER_SUBS)) {
+    subs.forEach(s => renderSub(s));
+  }
+  for (const chId of Object.keys(CHAPTER_SUBS)) {
+    updateChapterState(chId);
+  }
+  Object.keys(SUBJECTS).forEach(s => updateSubjectProgress(s));
+  updateOverall();
+}
+
+initRender();
+</script>
+</body>
+</html>
